@@ -30,6 +30,7 @@ class TagView(QWidget):
       self.controlsLayout = QHBoxLayout()
       self.addTagBtn = QPushButton(QIcon(), 'Add')
       self.addTagBtn.clicked.connect(self.addTag)
+      # self.addTagBtn.clicked.connect(self.updateTagsCallback)
       self.controlsLayout.addWidget(self.addTagBtn)
 
       self.addText = QLineEdit(self.tempName)
@@ -37,6 +38,7 @@ class TagView(QWidget):
 
       self.removeTagBtn = QPushButton(QIcon(), 'Remove')
       self.removeTagBtn.clicked.connect(self.removeTag)
+      # self.removeTagBtn.clicked.connect(self.updateTagsCallback)
       self.controlsLayout.addWidget(self.removeTagBtn)
 
       self.mainLayout = QGridLayout()

@@ -13,13 +13,13 @@ class MainView(QWidget):
       super(MainView, self).__init__(parent)
       self.logger = logger
       self.settings = settings
-      self.tagManager = TagManager()
+      self.tagManager = TagManager(settings)
       self.tagsView = TagView(logger, settings, self.tagManager, self.updateTagsList)
       self.settingsDialog = SettingsView(logger, self.settings)
       self.datasheets = DatasheetCollection(self.settings.datasheetsDir)
       self.seletedDatasheet: Datasheet = None
 
-      self.tagsListTest = QListWidget()
+      self.tagsList = QListWidget()
 
       self.openSettingsButton = QPushButton(QIcon(), 'Settings')
       self.openSettingsButton.clicked.connect(self.openSettingsDialog)
@@ -44,9 +44,8 @@ class MainView(QWidget):
       self.grid = QGridLayout()
       self.grid.addLayout(self.menuButtonBox, 0, 0, 1, 2)
       self.grid.addLayout(self.selectedViewBox, 1, 0)
-      self.grid.addWidget(self.datasheetListView, 0, 1)
-      self.grid.addWidget(self.tagsListTest, 1, 1)
-
+      self.grid.addWidget(self.datasheetListView, 1, 1)
+      self.grid.addWidget(self.tagsList, 2, 1)
 
       self.mainView = QWidget()
       self.mainView.setLayout(self.grid)
@@ -54,6 +53,7 @@ class MainView(QWidget):
       self.tabContainer = QTabWidget()
       self.tabContainer.addTab(self.mainView, QIcon(), 'Datasheets')
       self.tabContainer.addTab(self.tagsView, QIcon(), 'Tags')
+      self.tabContainer.addTab(self.docViewer, QIcon(), 'Doc Viewer')
 
       # self.setLayout(self.grid)
       self.tempBox = QBoxLayout(QBoxLayout.TopToBottom)
@@ -105,8 +105,10 @@ class MainView(QWidget):
          else:
             self.logger.log('Datasheet already open')
 
+   @Slot()
    def updateTagsList(self):
       tags = self.tagManager.getTags()
-      self.tagsListTest.clear()
+      self.tagsList.clear()
       for tag in tags:
-         self.tagsListTest.addItem(tag)
+         newItem = QListWidgetItem(QIcon(), tag.name)
+         self.tagsList.addItem(newItem)

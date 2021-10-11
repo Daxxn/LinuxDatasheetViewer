@@ -1,12 +1,15 @@
 from uuid import uuid4 as uid, UUID
 
+from models.settings import Settings
+
 class Tag:
    def __init__(self, name: str) -> None:
       self.id: UUID = uid()
       self.name = name
 
 class TagManager:
-   def __init__(self) -> None:
+   def __init__(self, settings: Settings) -> None:
+      self.settings = settings
       self.tags: list[Tag] = []
 
    def add(self, name: str):
