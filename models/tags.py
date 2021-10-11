@@ -2,7 +2,7 @@ from uuid import uuid4 as uid, UUID
 
 class Tag:
    def __init__(self, name: str) -> None:
-      self.id = uid()
+      self.id: UUID = uid()
       self.name = name
 
 class TagManager:

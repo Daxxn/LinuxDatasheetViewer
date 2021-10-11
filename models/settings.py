@@ -11,6 +11,7 @@ class Settings:
       self.datasheetsDir = 'test'
       self.verbose = False
       self.console = True
+      self.metadataPath = ''
 
    def __dict__(self):
       output = dict()
@@ -23,9 +24,6 @@ class Settings:
 
    def __getattr__(self, name: str) -> Any:
       return object.__getattribute__(self, name)
-
-   # def __setattr__(self, name: str, value: Any) -> None:
-   #    object.__setattr__(self, name, value)
 
    def __str__(self):
       return dumps(self.__dict__())

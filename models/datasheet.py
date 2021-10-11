@@ -1,4 +1,5 @@
 from threading import Thread
+from models.tags import Tag
 from uuid import uuid4 as uid
 from json import dumps
 import os.path as Path
@@ -10,6 +11,10 @@ class Datasheet:
       self.path = path
       self.isOpen = False
       self.thread: Thread = None
+      self.desc: str = ''
+      self.tags: list[Tag]
+      self.partName: str = ''
+      self.fileType: str = '.pdf'
       if Path.isfile(path):
          self.name = name if name != None else Path.basename(path)
       else:
