@@ -12,7 +12,7 @@ class Datasheet:
       self.isOpen = False
       self.thread: Thread = None
       self.desc: str = ''
-      self.tags: list[Tag]
+      self.tags: list[Tag] = []
       self.partName: str = ''
       self.fileType: str = '.pdf'
       if Path.isfile(path):

@@ -1,51 +1,25 @@
 from PySide6.QtGui import QIcon
-from PySide6.QtWidgets import QGridLayout, QHBoxLayout, QLabel, QLayout, QSpacerItem, QWidget, QBoxLayout, QListWidget, QListWidgetItem, QPushButton
+from PySide6.QtWidgets import QGridLayout, QHBoxLayout, QLabel, QLayout, QSpacerItem, QTabWidget, QWidget, QBoxLayout, QListWidget, QListWidgetItem, QPushButton
 from PySide6.QtCore import Slot
 from LocalLogging.logger import LoggerBase
 from models.datasheet import Datasheet, DatasheetCollection
 from models.settings import Settings
+from models.tags import TagManager
 from views.settingsView import SettingsView
-
-class MainViewBox(QWidget):
-   def __init__(self, parent=None) -> None:
-      super(MainViewBox, self).__init__(parent)
-      self.box = QBoxLayout(QBoxLayout.TopToBottom)
-
-      self.listView = QListWidget()
-      self.buildTestList()
-      self.listView.itemClicked.connect(self.selectTest)
-      print(self.listView.actions())
-
-      self.button = QPushButton('Test')
-      self.button.clicked.connect(self.clickTest)
-
-      self.box.addWidget(self.listView)
-      self.box.addWidget(self.button)
-      self.setLayout(self.box)
-
-   def buildTestList(self):
-      testData = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten']
-      for data in testData:
-         self.listView.addItem(QListWidgetItem(QIcon(), data))
-
-   @Slot()
-   def clickTest(self):
-      print('Hello')
-
-   @Slot()
-   def selectTest(self, args: QListWidgetItem):
-      print(args.text())
+from views.tagView import TagView
 
 class MainView(QWidget):
    def __init__(self, logger: LoggerBase, settings: Settings, parent=None) -> None:
       super(MainView, self).__init__(parent)
       self.logger = logger
       self.settings = settings
+      self.tagManager = TagManager()
+      self.tagsView = TagView(logger, settings, self.tagManager, self.updateTagsList)
       self.settingsDialog = SettingsView(logger, self.settings)
       self.datasheets = DatasheetCollection(self.settings.datasheetsDir)
       self.seletedDatasheet: Datasheet = None
 
-      self.grid = QGridLayout()
+      self.tagsListTest = QListWidget()
 
       self.openSettingsButton = QPushButton(QIcon(), 'Settings')
       self.openSettingsButton.clicked.connect(self.openSettingsDialog)
@@ -67,10 +41,24 @@ class MainView(QWidget):
       self.selectedViewBox.addSpacerItem(QSpacerItem(0, 20))
       self.selectedViewBox.addWidget(self.openDatasheetButton)
 
+      self.grid = QGridLayout()
       self.grid.addLayout(self.menuButtonBox, 0, 0, 1, 2)
       self.grid.addLayout(self.selectedViewBox, 1, 0)
-      self.grid.addWidget(self.datasheetListView, 1, 1)
-      self.setLayout(self.grid)
+      self.grid.addWidget(self.datasheetListView, 0, 1)
+      self.grid.addWidget(self.tagsListTest, 1, 1)
+
+
+      self.mainView = QWidget()
+      self.mainView.setLayout(self.grid)
+
+      self.tabContainer = QTabWidget()
+      self.tabContainer.addTab(self.mainView, QIcon(), 'Datasheets')
+      self.tabContainer.addTab(self.tagsView, QIcon(), 'Tags')
+
+      # self.setLayout(self.grid)
+      self.tempBox = QBoxLayout(QBoxLayout.TopToBottom)
+      self.tempBox.addWidget(self.tabContainer)
+      self.setLayout(self.tempBox)
       self.logger.log('Main view constructed.')
 
       self.setMinimumSize(1000, 1000)
@@ -116,3 +104,9 @@ class MainView(QWidget):
             self.selectedDatasheet.openDatasheet()
          else:
             self.logger.log('Datasheet already open')
+
+   def updateTagsList(self):
+      tags = self.tagManager.getTags()
+      self.tagsListTest.clear()
+      for tag in tags:
+         self.tagsListTest.addItem(tag)

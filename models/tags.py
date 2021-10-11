@@ -18,10 +18,18 @@ class TagManager:
       self.tags.append(newTag)
       return newTag
 
-   def remove(self, name: str):
+   def remove(self, tag: Tag):
       if len(self.tags) > 0:
+         self.tags.remove(tag)
+         return True
+      return False
+
+   def find(self, name: str):
+      if len(self.tags) > 0 and name != '':
          for tag in self.tags:
             if tag.name == name:
-               self.tags.remove(tag)
-               return True
-      return False
+               return tag
+      return None
+
+   def getTags(self):
+      return self.tags

@@ -55,3 +55,8 @@ class Settings:
       except Exception as e:
          self.logger.error(e, 'SaveSettings Error')
 
+   def hardSet(self):
+      self.datasheetsDir = '/home/Daxxn/Electrical/Docs/Datasheets/'
+      self.console = True
+      self.verbose = True
+      self.metadataPath = '.metadata.json'

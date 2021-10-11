@@ -27,7 +27,8 @@ def main() -> None:
    logger.start()
    settings = Settings(logger)
    print(settings)
-   settings.openSettings()
+   # settings.openSettings()
+   settings.hardSet()
    logger.setVerbose(settings.verbose if not verbose else verbose)
    logger.setConsole(settings.console if not console else console)
    try:
