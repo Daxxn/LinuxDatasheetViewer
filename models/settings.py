@@ -8,10 +8,10 @@ class Settings:
    path = '/home/Daxxn/Documents/mySettings/datasheets.json'
    def __init__(self, logger: LoggerBase) -> None:
       self.logger = logger
-      self.datasheetsDir = 'test'
+      self.datasheetsDir = '/home/Daxxn/Electrical/Docs/Datasheets/'
       self.verbose = False
       self.console = True
-      self.metadataPath = ''
+      self.metadataPath = '.metadata.json'
 
    def __dict__(self):
       output = dict()

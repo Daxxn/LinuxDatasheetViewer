@@ -83,8 +83,10 @@ class MainView(QWidget):
          self.datasheetListView.addItem(QListWidgetItem(QIcon(), data))
 
    def buildList(self):
-      for d in self.datasheets:
-         self.datasheetListView.addItem(QListWidgetItem(QIcon(), d.name))
+      if len(self.datasheets) > 0:
+         self.datasheetListView.clear()
+         for d in self.datasheets:
+            self.datasheetListView.addItem(QListWidgetItem(QIcon(), d.name))
 
    @Slot()
    def selectDatasheet(self, args: QListWidgetItem):

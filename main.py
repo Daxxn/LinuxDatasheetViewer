@@ -26,8 +26,7 @@ def main() -> None:
    logger.setNext(FileLogger('Datasheets', True))
    logger.start()
    settings = Settings(logger)
-   print(settings)
-   settings.openSettings()
+   # settings.openSettings()
    logger.setVerbose(settings.verbose if not verbose else verbose)
    logger.setConsole(settings.console if not console else console)
    try:
