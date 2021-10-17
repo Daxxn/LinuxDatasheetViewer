@@ -1,16 +1,26 @@
 from threading import Thread
+from models.settings import Settings
 from models.tags import Tag
 from uuid import uuid4 as uid
 from json import dumps
 import os.path as Path
 import os
 
+#region Close
+class CloseException(Exception):
+   def __init__(self) -> None:
+      super().__init__()
+#endregion
+
+#region Datasheet
 class Datasheet:
+   #region Init
    def __init__(self, path: str, name: str = None) -> None:
       self.id = uid()
       self.path = path
       self.isOpen = False
       self.thread: Thread = None
+      self.viewer: str = ''
       self.desc: str = ''
       self.tags: list[Tag] = []
       self.partName: str = ''
@@ -19,30 +29,49 @@ class Datasheet:
          self.name = name if name != None else Path.basename(path)
       else:
          self.name = None
+   #endregion
 
+   #region Methods
    def __str__(self):
       return dumps(self, indent=3)
 
    def open(self):
-      os.system(f'evince \"{self.path}\"')
+      '''Opens the file viewer'''
+      os.system(f'{self.viewer} \"{self.path}\"')
       self.isOpen = False
+      self.updateCallback()
 
-   def openDatasheet(self):
+   def openDatasheet(self, viewer: str, updateCallback):
+      '''Starts a new thread if the file is not open and starts the viewer'''
       if not self.isOpen:
          self.isOpen = True
+         self.viewer = viewer
+         self.updateCallback = updateCallback
          self.thread = Thread(target=self.open)
          self.thread.start()
 
    def closeDatasheet(self):
+      '''I dont think im going to be able to do this..'''
       if self.isOpen:
-         self.thread.ident
+         print('Not implemented.')
+         # self.thread.
+         # os.kill(self.thread.native_id, 1)
+   #endregion
+#endregion
 
+#region Datasheet Collection
 class DatasheetCollection:
+   #region Default Props
    index: int = -1
-   def __init__(self, root: str, sheets: list[Datasheet] = None) -> None:
-      self.datasheets = sheets
-      self.rootDir = root
+   #endregion
 
+   #region Init
+   def __init__(self, settings: Settings, sheets: list[Datasheet] = None) -> None:
+      self.datasheets = sheets
+      self.settings = settings
+   #endregion
+
+   #region Methods
    def add(self, sheet: Datasheet):
       if not self.datasheets.__contains__(sheet):
          self.datasheets.append(sheet)
@@ -50,6 +79,9 @@ class DatasheetCollection:
    def remove(self, sheet):
       if self.datasheets.__contains__(sheet):
          self.datasheets.remove(sheet)
+
+   def clear(self):
+      self.datasheets = []
 
    def load(self, rootPath: str):
       try:
@@ -61,6 +93,18 @@ class DatasheetCollection:
                fileName, ext = Path.splitext(file)
                if ext.lower() == '.pdf':
                   self.datasheets.append(Datasheet(Path.join(rootPath, file), fileName))
+      except Exception as e:
+         print(str(e))
+   
+   def load2(self):
+      try:
+         if Path.isdir(self.settings.datasheetsDir):
+            self.datasheets = []
+            files = os.listdir(self.rootDir)
+            for file in files:
+               fileName, ext = Path.splitext(file)
+               if ext.lower() == '.pdf':
+                  self.datasheets.append(Datasheet(Path.join(self.settings.datasheetsDir, file), fileName))
       except Exception as e:
          print(str(e))
 
@@ -86,3 +130,5 @@ class DatasheetCollection:
 
    def __len__(self) -> int:
       return len(self.datasheets)
+   #endregion
+#endregion

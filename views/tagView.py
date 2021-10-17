@@ -7,6 +7,7 @@ from LocalLogging.logger import LoggerBase
 from models.tags import Tag, TagManager
 
 class TagView(QWidget):
+   #region Init
    def __init__(
       self,
       logger: LoggerBase,
@@ -16,17 +17,22 @@ class TagView(QWidget):
       parent=None
    ) -> None:
       super(TagView, self).__init__(parent)
+      #region Parameters
       self.tagManager: TagManager = tagManager
       self.settings = settings
       self.logger = logger
       self.tempName = 'New Name'
       self.selectedTag: Tag = None
       self.updateTagsCallback = updateTagsCallback
+      #endregion
 
+      #region Tag List
       self.tagList = QListWidget()
       self.tagList.itemClicked.connect(self.selectedTagChanged)
       # self.updateTags()
+      #endregion
 
+      #region Controls
       self.controlsLayout = QHBoxLayout()
       self.addTagBtn = QPushButton(QIcon(), 'Add')
       self.addTagBtn.clicked.connect(self.addTag)
@@ -40,16 +46,20 @@ class TagView(QWidget):
       self.removeTagBtn.clicked.connect(self.removeTag)
       # self.removeTagBtn.clicked.connect(self.updateTagsCallback)
       self.controlsLayout.addWidget(self.removeTagBtn)
+      #endregion
 
+      #region Layout
       self.mainLayout = QGridLayout()
       self.mainLayout.addLayout(self.controlsLayout, 0, 0)
       self.mainLayout.addWidget(self.tagList, 1, 0)
       self.setLayout(self.mainLayout)
+      #endregion
+   #endregion
 
+   #region Methods
    def updateTags(self):
       tags = self.tagManager.getTags()
       self.tagList.clear()
-      mime = QMimeData()
       for tag in tags:
          newItem = QListWidgetItem(QIcon(), tag.name)
          self.tagList.addItem(newItem)
@@ -69,3 +79,4 @@ class TagView(QWidget):
    @Slot()
    def selectedTagChanged(self, args: QListWidgetItem):
       self.selectedTag = self.tagManager.find(args.text())
+   #endregion

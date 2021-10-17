@@ -7,12 +7,15 @@ from LocalLogging.logger import LoggerBase
 from models.settings import Settings
 
 class SettingsView(QDialog):
+   #region Init
    def __init__(self, logger: LoggerBase, currentSettings: Settings = None, parent = None) -> None:
       super(SettingsView, self).__init__(parent)
+      #region Parameters
       self.logger = logger
       self.settings = currentSettings if currentSettings != None else Settings()
+      #endregion
 
-      #region Init View
+      #region View
       self.openFolderButton = QPushButton(QIcon(), 'Open Folder')
       self.openFolderButton.clicked.connect(self.selectDatasheetDir)
       self.fileDialog = QFileDialog(self, 'Select Datasheet Folder', self.settings.datasheetsDir if self.settings.datasheetsDir != '' else '~/Documents/')
@@ -27,7 +30,9 @@ class SettingsView(QDialog):
       self.box.addLayout(self.datasheetsDirLayout)
       self.setLayout(self.box)
       #endregion
+   #endregion
 
+   #region Methods
    @Slot()
    def selectDatasheetDir(self):
       if self.fileDialog.exec():
@@ -43,3 +48,4 @@ class SettingsView(QDialog):
    def show(self, currentSettings: Settings):
       self.settings = currentSettings
       self.exec()
+   #endregion
