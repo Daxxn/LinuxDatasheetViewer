@@ -4,6 +4,7 @@ from models.settings import Settings
 from views.mainView import MainView
 from LocalLogging.logger import FileLogger, ConsoleLogger
 
+#region Parse Args
 def parseArgs() -> tuple[bool, bool]:
    verbose = False
    console = False
@@ -14,23 +15,29 @@ def parseArgs() -> tuple[bool, bool]:
          if arg == 'console':
             console = True
    return (verbose, console)
+#endregion
 
 def main() -> None:
+   #region App Start
    verbose, console = parseArgs()
    app = QApplication(sys.argv)
    app.setApplicationName('Datasheets')
    app.setDesktopFileName('Datasheets')
 
-   #region Layout
+   #region Open Logging & Settings
    logger = ConsoleLogger(True)
    logger.setNext(FileLogger('Datasheets', True))
    logger.start()
    settings = Settings(logger)
-   # settings.openSettings()
+   print(settings)
+   settings.openSettings()
+   # settings.hardSet()
    logger.setVerbose(settings.verbose if not verbose else verbose)
    logger.setConsole(settings.console if not console else console)
+   #endregion
+
+   #region Start User Interface
    try:
-      # mainView = MainViewGrid()
       mainView = MainView(logger, settings)
       mainView.show()
       status = app.exec()
@@ -38,12 +45,20 @@ def main() -> None:
       sys.exit(status)
    except Exception as e:
       logger.error(e, 'Uncaught Error.')
+   #endregion
+
+   #region Save Settings & Logs
    settings.saveSettings()
    logger.stop()
    #endregion
 
+   #endregion
 
+#region Start
 if __name__ == '__main__':
    main()
 else:
    print('File is not a module.')
+#endregion
+
+print('Finished')

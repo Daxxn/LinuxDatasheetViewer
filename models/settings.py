@@ -5,14 +5,20 @@ from typing import Any
 from LocalLogging.logger import LoggerBase
 
 class Settings:
+   #region Default Props
    path = '/home/Daxxn/Documents/mySettings/datasheets.json'
+   #endregion
+
+   #region Init
    def __init__(self, logger: LoggerBase) -> None:
       self.logger = logger
-      self.datasheetsDir = '/home/Daxxn/Electrical/Docs/Datasheets/'
+      self.datasheetsDir = 'None'
       self.verbose = False
       self.console = True
-      self.metadataPath = '.metadata.json'
+      self.metadataPath = 'None'
+   #endregion
 
+   #region Methods
    def __dict__(self):
       output = dict()
       for k in self.__dir__():
@@ -55,3 +61,10 @@ class Settings:
       except Exception as e:
          self.logger.error(e, 'SaveSettings Error')
 
+   def hardSet(self):
+      self.datasheetsDir = '/home/Daxxn/Electrical/Docs/Datasheets/'
+      self.console = True
+      self.verbose = True
+      self.metadataPath = '.metadata.json'
+      self.docViewer = 'evince'
+   #endregion
