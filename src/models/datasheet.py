@@ -83,6 +83,7 @@ class Datasheet:
    @staticmethod
    def deserialize(tagManager: TagManager, data: dict):
       newDatasheet = Datasheet(data['path'], data['partName'])
+      newDatasheet.desc = data['desc']
       newDatasheet.tags = tagManager.deserialize(data['tags'])
       return newDatasheet
    #endregion

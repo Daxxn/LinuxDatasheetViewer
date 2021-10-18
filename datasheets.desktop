@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=Datasheets
+GenericName=Datasheet Manager
+Comment=Search and viewer tool for electrical datasheets or PDF files
+Keywords=pdf;electrical;utility
+Type=Application
+Categories=Electrical;QT
+Exec=python /home/Daxxn/Code/Python/Projects/Datasheets/main.py
+Terminal=false
+StartupNotify=true
+Icon=/home/Daxxn/Code/Python/Projects/Datasheets/Resources/Icons/DatasheetDesktopIcon.png
+
+[Desktop Action new-window]
+Name=Dont open a new window.
+Exec=echo Dont open a new window.
