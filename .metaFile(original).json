@@ -1,0 +1,3115 @@
+{
+  "MetaFile": {
+    "Datasheets": [
+      {
+        "PartName": "100-Series",
+        "Description": "Toggle Switches",
+        "Name": "100-Series",
+        "FilePath": "B:\\Electrical\\Datasheets\\100-Series.pdf",
+        "Tags": [
+          {
+            "Name": "Toggle",
+            "ID": "5af86e51-6a42-4485-87d7-6605b4136f76"
+          },
+          {
+            "Name": "Switch",
+            "ID": "7312d916-903a-4bd2-92fc-5287bbee2ef7"
+          },
+          {
+            "Name": "Catalog",
+            "ID": "d897e592-d5cf-46ae-b9ba-84a313034ad4"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "10103594",
+        "Description": null,
+        "Name": "10103594",
+        "FilePath": "B:\\Electrical\\Datasheets\\10103594.pdf",
+        "Tags": [
+          {
+            "Name": "USB",
+            "ID": "5f1bafdd-02e3-4bd8-825e-5a72291af7f7"
+          },
+          {
+            "Name": "Connector",
+            "ID": "72d7eda3-ea39-43d6-a664-16b09ea0704a"
+          },
+          {
+            "Name": "Female",
+            "ID": "747524d1-cbe4-4351-8c46-1a042686f064"
+          },
+          {
+            "Name": "Micro",
+            "ID": "cd5f8bba-f966-4dbc-b6e8-15ca5d0a17fa"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "14A",
+        "Description": null,
+        "Name": "14A",
+        "FilePath": "B:\\Electrical\\Datasheets\\14A.pdf",
+        "Tags": [
+          {
+            "Name": "Current-Sense",
+            "ID": "a30e46e3-f628-46a7-8480-9181b920d31d"
+          },
+          {
+            "Name": "Resistor",
+            "ID": "d07e0cd2-0a52-4387-9cc3-d5a00ef05854"
+          },
+          {
+            "Name": "Power",
+            "ID": "c25a027f-15f8-461f-b961-c61f8e35b8d2"
+          },
+          {
+            "Name": "Catalog",
+            "ID": "d897e592-d5cf-46ae-b9ba-84a313034ad4"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "23HS8430-ETK",
+        "Description": null,
+        "Name": "23HS8430-ETK",
+        "FilePath": "B:\\Electrical\\Datasheets\\23HS8430-ETK.pdf",
+        "Tags": [
+          {
+            "Name": "Stepper",
+            "ID": "3053c7dc-9332-4116-b9d1-2b8115884e4c"
+          },
+          {
+            "Name": "Motor",
+            "ID": "9648bab0-359e-4a9e-82ec-0ac9f3ebee24"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "25157A",
+        "Description": null,
+        "Name": "25157A",
+        "FilePath": "B:\\Electrical\\Datasheets\\25157A.pdf",
+        "Tags": [
+          {
+            "Name": "512Kb",
+            "ID": "34af6c6b-924e-44ba-ac18-3112d97682f9"
+          },
+          {
+            "Name": "SPI",
+            "ID": "063004e9-5c89-4d23-9af6-7c9ebc465b8c"
+          },
+          {
+            "Name": "SRAM",
+            "ID": "e49d66c0-d1d7-4f9d-9f26-7a2e2e5636fe"
+          },
+          {
+            "Name": "SDI",
+            "ID": "f2b7f2be-61be-4f74-98c3-a84091a4b076"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "25AA320A-25LC320A",
+        "Description": null,
+        "Name": "25AA320A-25LC320A",
+        "FilePath": "B:\\Electrical\\Datasheets\\25AA320A-25LC320A.pdf",
+        "Tags": [
+          {
+            "Name": "32Kb",
+            "ID": "32a43784-93cc-4957-bc1f-17e74c46fca2"
+          },
+          {
+            "Name": "SPI",
+            "ID": "063004e9-5c89-4d23-9af6-7c9ebc465b8c"
+          },
+          {
+            "Name": "EEPROM",
+            "ID": "96ea595b-6acf-4659-9348-e9c4c22b00c7"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "30009937C",
+        "Description": null,
+        "Name": "30009937C",
+        "FilePath": "B:\\Electrical\\Datasheets\\30009937C.pdf",
+        "Tags": [
+          {
+            "Name": "Micro-Controller",
+            "ID": "2ddb9da7-4e29-4319-96a8-c506388e7fcb"
+          },
+          {
+            "Name": "16b",
+            "ID": "8ac5ab71-3e60-4706-ac56-fcd13f1be20b"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "775-Motor",
+        "Description": null,
+        "Name": "775-Motor",
+        "FilePath": "B:\\Electrical\\Datasheets\\775-Motor.pdf",
+        "Tags": [
+          {
+            "Name": "DC",
+            "ID": "1b18a706-ea5a-4a0e-afb2-7ca6167dc26d"
+          },
+          {
+            "Name": "Motor",
+            "ID": "9648bab0-359e-4a9e-82ec-0ac9f3ebee24"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "A1324-5-6",
+        "Description": null,
+        "Name": "A1324-5-6",
+        "FilePath": "B:\\Electrical\\Datasheets\\A1324-5-6.pdf",
+        "Tags": [
+          {
+            "Name": "Linear",
+            "ID": "bca799a3-adb3-46f5-82c6-16ec87f9a1cd"
+          },
+          {
+            "Name": "Hall-Effect",
+            "ID": "441e8f00-7af6-4335-bb50-d82823fc7804"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "AGQ",
+        "Description": null,
+        "Name": "AGQ - Signal Relay",
+        "FilePath": "B:\\Electrical\\Datasheets\\AGQ - Signal Relay.pdf",
+        "Tags": [
+          {
+            "Name": "Signal",
+            "ID": "47a54a70-6e19-4766-a49d-90380290bd4c"
+          },
+          {
+            "Name": "Relay",
+            "ID": "2c74a979-85ff-4fd2-8036-dec351fa0ff1"
+          },
+          {
+            "Name": "2A",
+            "ID": "ba5733d0-44c7-4788-8126-8637c32c42e2"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "AT90CAN64",
+        "Description": null,
+        "Name": "AT90CAN64",
+        "FilePath": "B:\\Electrical\\Datasheets\\AT90CAN64.pdf",
+        "Tags": [
+          {
+            "Name": "8b",
+            "ID": "2443e36f-75de-45dc-adca-c7ab5890a69e"
+          },
+          {
+            "Name": "Micro-Controller",
+            "ID": "2ddb9da7-4e29-4319-96a8-c506388e7fcb"
+          },
+          {
+            "Name": "32Kb",
+            "ID": "32a43784-93cc-4957-bc1f-17e74c46fca2"
+          },
+          {
+            "Name": "64Kb",
+            "ID": "c7bc78bf-6aa8-4a71-91ed-8bd513044dd4"
+          },
+          {
+            "Name": "128Kb",
+            "ID": "696ac40c-b97d-4082-8361-af5b0777b890"
+          },
+          {
+            "Name": "CAN-Bus",
+            "ID": "851ccefb-cb72-473d-b9c0-6ad517482528"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "B3F Series",
+        "Description": null,
+        "Name": "B3F Series",
+        "FilePath": "B:\\Electrical\\Datasheets\\B3F Series.pdf",
+        "Tags": [
+          {
+            "Name": "Momentary",
+            "ID": "ad2f6382-e2cd-4293-95f5-b00b99d62052"
+          },
+          {
+            "Name": "Switch",
+            "ID": "7312d916-903a-4bd2-92fc-5287bbee2ef7"
+          },
+          {
+            "Name": "Catalog",
+            "ID": "d897e592-d5cf-46ae-b9ba-84a313034ad4"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "BigEasyDriver",
+        "Description": null,
+        "Name": "BigEasyDriver",
+        "FilePath": "B:\\Electrical\\Datasheets\\BigEasyDriver.pdf",
+        "Tags": [
+          {
+            "Name": "Stepper",
+            "ID": "3053c7dc-9332-4116-b9d1-2b8115884e4c"
+          },
+          {
+            "Name": "Driver",
+            "ID": "71c22d5c-0150-4b2f-9f62-3d21c1bbdf2e"
+          },
+          {
+            "Name": "2A",
+            "ID": "ba5733d0-44c7-4788-8126-8637c32c42e2"
+          },
+          {
+            "Name": "Guide",
+            "ID": "76eb67f3-8157-409a-994e-4528869ce669"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "CANBus Introduction",
+        "Description": null,
+        "Name": "CANBus Introduction",
+        "FilePath": "B:\\Electrical\\Datasheets\\CANBus Introduction.pdf",
+        "Tags": [
+          {
+            "Name": "CAN-Bus",
+            "ID": "851ccefb-cb72-473d-b9c0-6ad517482528"
+          },
+          {
+            "Name": "Overview",
+            "ID": "25f113c5-48ba-4293-8044-0efda3748aa6"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "CPH3348-TL-W",
+        "Description": null,
+        "Name": "CPH3348-TL-W",
+        "FilePath": "B:\\Electrical\\Datasheets\\CPH3348-TL-W.PDF",
+        "Tags": [
+          {
+            "Name": "MOSFET",
+            "ID": "7dd3e7d0-3d9a-408c-a796-3f6670865952"
+          },
+          {
+            "Name": "PNP",
+            "ID": "3103e0d0-9af7-45a2-a81d-23f5b5553f0e"
+          },
+          {
+            "Name": "3A",
+            "ID": "2cc6ae56-49b3-42a2-ab20-a4205fae17d1"
+          },
+          {
+            "Name": "12V",
+            "ID": "5da929f0-7002-4422-bc48-3c12fbd08136"
+          },
+          {
+            "Name": "Power",
+            "ID": "c25a027f-15f8-461f-b961-c61f8e35b8d2"
+          }
+        ],
+        "FileType": ".PDF"
+      },
+      {
+        "PartName": "CS5511",
+        "Description": null,
+        "Name": "CS5511",
+        "FilePath": "B:\\Electrical\\Datasheets\\CS5511.pdf",
+        "Tags": [
+          {
+            "Name": "16bit",
+            "ID": "35217170-4863-41bd-bbf7-5292456aa0bf"
+          },
+          {
+            "Name": "20bit",
+            "ID": "a0df75a0-7db3-46f8-9d81-6f39af63d93e"
+          },
+          {
+            "Name": "ADC",
+            "ID": "cb451911-3e10-4199-8a7b-c28abdf3beab"
+          },
+          {
+            "Name": "1-Ch",
+            "ID": "b1218e2e-533d-47e5-a09a-e2bb74b1ea2c"
+          },
+          {
+            "Name": "Delta-Sigma",
+            "ID": "fde38403-8f8e-4e52-a3e7-b0efe59fefaa"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "CSD19533KCS",
+        "Description": null,
+        "Name": "CSD19533KCS",
+        "FilePath": "B:\\Electrical\\Datasheets\\CSD19533KCS.pdf",
+        "Tags": [
+          {
+            "Name": "MOSFET",
+            "ID": "7dd3e7d0-3d9a-408c-a796-3f6670865952"
+          },
+          {
+            "Name": "100V",
+            "ID": "2af33e77-fbf8-4018-8b8b-3dbfd1e980c9"
+          },
+          {
+            "Name": "NPN",
+            "ID": "5d210b56-4d04-4c90-8ff0-4750e3f6aa6e"
+          },
+          {
+            "Name": "Power",
+            "ID": "c25a027f-15f8-461f-b961-c61f8e35b8d2"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "D882",
+        "Description": null,
+        "Name": "D882",
+        "FilePath": "B:\\Electrical\\Datasheets\\D882.pdf",
+        "Tags": [
+          {
+            "Name": "Transistor",
+            "ID": "c57e5c20-e8a9-401a-b9e0-7cfb1576e4ba"
+          },
+          {
+            "Name": "NPN",
+            "ID": "5d210b56-4d04-4c90-8ff0-4750e3f6aa6e"
+          },
+          {
+            "Name": "Power",
+            "ID": "c25a027f-15f8-461f-b961-c61f8e35b8d2"
+          },
+          {
+            "Name": "30V",
+            "ID": "a3035c18-1ae2-4136-a373-fe5eb83618b1"
+          },
+          {
+            "Name": "3A",
+            "ID": "2cc6ae56-49b3-42a2-ab20-a4205fae17d1"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "DS18B20",
+        "Description": null,
+        "Name": "DS18B20",
+        "FilePath": "B:\\Electrical\\Datasheets\\DS18B20.pdf",
+        "Tags": [
+          {
+            "Name": "Digital",
+            "ID": "2f58e875-2ba8-4a4c-9cae-ba34b2596fe6"
+          },
+          {
+            "Name": "Thermometer",
+            "ID": "6df21082-1731-4c18-b7aa-d10a2914e37b"
+          },
+          {
+            "Name": "1-Wire",
+            "ID": "ec708a4d-bbf7-4c5e-9d51-eed6dd405b87"
+          },
+          {
+            "Name": "12b",
+            "ID": "8e700429-289b-4336-8955-4e4bd4e01541"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "ESDA041-2W3Y",
+        "Description": null,
+        "Name": "ESDA041-2W3Y",
+        "FilePath": "B:\\Electrical\\Datasheets\\ESDA041-2W3Y.pdf",
+        "Tags": [
+          {
+            "Name": "TVS",
+            "ID": "318ede40-626e-4952-8509-5db55bca7d52"
+          },
+          {
+            "Name": "4V",
+            "ID": "82232aff-a237-41ab-a1d8-576508acc145"
+          },
+          {
+            "Name": "BMS",
+            "ID": "fb1fadd1-811c-43a2-a678-1b3b62f85c96"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "FR107",
+        "Description": null,
+        "Name": "FR107",
+        "FilePath": "B:\\Electrical\\Datasheets\\FR107.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "PTH",
+            "ID": "c360ae04-c929-4c3c-9470-b9fa90bd253f"
+          },
+          {
+            "Name": "1KV",
+            "ID": "8d9e237f-682f-49c1-94d8-f9065469bba4"
+          },
+          {
+            "Name": "1A",
+            "ID": "1f72b8e4-268a-4015-ab69-082dc5d982ea"
+          },
+          {
+            "Name": "30Ap",
+            "ID": "fe9410b1-d1a1-40fc-91b4-e5d30bad5a72"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "FR201-FR208",
+        "Description": null,
+        "Name": "FR201-FR208",
+        "FilePath": "B:\\Electrical\\Datasheets\\FR201-FR208.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "PTH",
+            "ID": "c360ae04-c929-4c3c-9470-b9fa90bd253f"
+          },
+          {
+            "Name": "50V",
+            "ID": "6876698b-5e71-470b-ab9a-3cdb61c22daa"
+          },
+          {
+            "Name": "100V",
+            "ID": "2af33e77-fbf8-4018-8b8b-3dbfd1e980c9"
+          },
+          {
+            "Name": "200V",
+            "ID": "147dc587-37cf-45b1-b149-912c7badaded"
+          },
+          {
+            "Name": "400V",
+            "ID": "93182509-163d-4a2a-8881-134dba158231"
+          },
+          {
+            "Name": "600V",
+            "ID": "92edf821-18d1-4381-b1a2-8a74ad7d35ea"
+          },
+          {
+            "Name": "800V",
+            "ID": "0957cbab-1cf3-45bf-a5d6-df9aecbfa830"
+          },
+          {
+            "Name": "1KV",
+            "ID": "8d9e237f-682f-49c1-94d8-f9065469bba4"
+          },
+          {
+            "Name": "2A",
+            "ID": "ba5733d0-44c7-4788-8126-8637c32c42e2"
+          },
+          {
+            "Name": "60Ap",
+            "ID": "574d49bb-ec02-4ee6-8432-546e7dcd8254"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "HLMP2885",
+        "Description": null,
+        "Name": "HLMP2885",
+        "FilePath": "B:\\Electrical\\Datasheets\\HLMP2885.pdf",
+        "Tags": [
+          {
+            "Name": "LED",
+            "ID": "d7cf467c-bc8c-4279-9d94-7067462ea8f0"
+          },
+          {
+            "Name": "Bar-Graph",
+            "ID": "d880740f-7c82-4d28-9e5b-2f6b819da4d8"
+          },
+          {
+            "Name": "Red",
+            "ID": "e6de33a1-504b-484d-9cca-46e65d89bfbb"
+          },
+          {
+            "Name": "Green",
+            "ID": "0c14ce0a-155d-4ccd-ac53-2a1242a02520"
+          },
+          {
+            "Name": "Blue",
+            "ID": "a5c1f487-0dfe-4764-bcd2-f7f67063f1dc"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "I2C Resistor Calculation",
+        "Description": null,
+        "Name": "I2C Resistor Calculation",
+        "FilePath": "B:\\Electrical\\Datasheets\\I2C Resistor Calculation.pdf",
+        "Tags": [
+          {
+            "Name": "I2C",
+            "ID": "77c3ad7f-83e2-481b-98c3-22e89de92ce8"
+          },
+          {
+            "Name": "Overview",
+            "ID": "25f113c5-48ba-4293-8044-0efda3748aa6"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "ILS Series",
+        "Description": null,
+        "Name": "ILS Series",
+        "FilePath": "B:\\Electrical\\Datasheets\\ILS Series.pdf",
+        "Tags": [
+          {
+            "Name": "Momenatry",
+            "ID": "c2d4ebc0-bcb8-4e97-9e7d-b0c103b4df80"
+          },
+          {
+            "Name": "Switch",
+            "ID": "7312d916-903a-4bd2-92fc-5287bbee2ef7"
+          },
+          {
+            "Name": "LED",
+            "ID": "d7cf467c-bc8c-4279-9d94-7067462ea8f0"
+          },
+          {
+            "Name": "Catalog",
+            "ID": "d897e592-d5cf-46ae-b9ba-84a313034ad4"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "IN4001-IN4007",
+        "Description": null,
+        "Name": "IN4001-IN4007",
+        "FilePath": "B:\\Electrical\\Datasheets\\IN4001-IN4007.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "PTH",
+            "ID": "c360ae04-c929-4c3c-9470-b9fa90bd253f"
+          },
+          {
+            "Name": "60V",
+            "ID": "c25faf59-47b0-4890-9354-d58c586de79c"
+          },
+          {
+            "Name": "120V",
+            "ID": "28690f3f-e82c-4d06-b4d3-791b8598e66d"
+          },
+          {
+            "Name": "240V",
+            "ID": "3560afc4-c376-4d96-a402-79c5e7064adf"
+          },
+          {
+            "Name": "480V",
+            "ID": "7889bc0e-a9df-4993-b27a-712fdc07fecc"
+          },
+          {
+            "Name": "720V",
+            "ID": "528eaf17-2b1e-4b5d-9e51-9f86954bb5c6"
+          },
+          {
+            "Name": "1KV",
+            "ID": "8d9e237f-682f-49c1-94d8-f9065469bba4"
+          },
+          {
+            "Name": "1.2KV",
+            "ID": "21b6e50a-7197-46a2-a08d-085a7be6af88"
+          },
+          {
+            "Name": "1A",
+            "ID": "1f72b8e4-268a-4015-ab69-082dc5d982ea"
+          },
+          {
+            "Name": "30Ap",
+            "ID": "fe9410b1-d1a1-40fc-91b4-e5d30bad5a72"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "IN4148",
+        "Description": null,
+        "Name": "IN4148",
+        "FilePath": "B:\\Electrical\\Datasheets\\IN4148.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "Fast-Switching",
+            "ID": "5c6e4345-659b-4719-93cb-898bef832ae7"
+          },
+          {
+            "Name": "100V",
+            "ID": "2af33e77-fbf8-4018-8b8b-3dbfd1e980c9"
+          },
+          {
+            "Name": "8ns",
+            "ID": "9c362908-188d-43b1-a399-2c17ff55fc94"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "IN5401-IN5408",
+        "Description": null,
+        "Name": "IN5401-IN5408",
+        "FilePath": "B:\\Electrical\\Datasheets\\IN5401-IN5408.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "3A",
+            "ID": "2cc6ae56-49b3-42a2-ab20-a4205fae17d1"
+          },
+          {
+            "Name": "100V",
+            "ID": "2af33e77-fbf8-4018-8b8b-3dbfd1e980c9"
+          },
+          {
+            "Name": "200V",
+            "ID": "147dc587-37cf-45b1-b149-912c7badaded"
+          },
+          {
+            "Name": "400V",
+            "ID": "93182509-163d-4a2a-8881-134dba158231"
+          },
+          {
+            "Name": "600V",
+            "ID": "92edf821-18d1-4381-b1a2-8a74ad7d35ea"
+          },
+          {
+            "Name": "1KV",
+            "ID": "8d9e237f-682f-49c1-94d8-f9065469bba4"
+          },
+          {
+            "Name": "200Ap",
+            "ID": "b7b49761-314b-4851-b171-dfbc83e1d4b4"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "IN5817-IN5819",
+        "Description": null,
+        "Name": "IN5817-IN5819",
+        "FilePath": "B:\\Electrical\\Datasheets\\IN5817-IN5819.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "Schottky",
+            "ID": "f0656e30-6647-4043-bac4-4610983b5190"
+          },
+          {
+            "Name": "20V",
+            "ID": "cfe66fcc-53f4-4130-9926-7775dfd4c334"
+          },
+          {
+            "Name": "30V",
+            "ID": "a3035c18-1ae2-4136-a373-fe5eb83618b1"
+          },
+          {
+            "Name": "40V",
+            "ID": "db70e20f-1a34-40a9-937c-f162b47f9eb3"
+          },
+          {
+            "Name": "1A",
+            "ID": "1f72b8e4-268a-4015-ab69-082dc5d982ea"
+          },
+          {
+            "Name": "25Ap",
+            "ID": "ec3f3d58-dccc-4495-8b0f-e603f075e2fb"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "IN5820-IN5822",
+        "Description": null,
+        "Name": "IN5820-IN5822",
+        "FilePath": "B:\\Electrical\\Datasheets\\IN5820-IN5822.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "Schottky",
+            "ID": "f0656e30-6647-4043-bac4-4610983b5190"
+          },
+          {
+            "Name": "20V",
+            "ID": "cfe66fcc-53f4-4130-9926-7775dfd4c334"
+          },
+          {
+            "Name": "30V",
+            "ID": "a3035c18-1ae2-4136-a373-fe5eb83618b1"
+          },
+          {
+            "Name": "40V",
+            "ID": "db70e20f-1a34-40a9-937c-f162b47f9eb3"
+          },
+          {
+            "Name": "3A",
+            "ID": "2cc6ae56-49b3-42a2-ab20-a4205fae17d1"
+          },
+          {
+            "Name": "80Ap",
+            "ID": "3d08858e-465a-4bdb-b8f4-6e5326512901"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "IRFS7530",
+        "Description": null,
+        "Name": "IRFS7530",
+        "FilePath": "B:\\Electrical\\Datasheets\\IRFS7530.pdf",
+        "Tags": [
+          {
+            "Name": "MOSFET",
+            "ID": "7dd3e7d0-3d9a-408c-a796-3f6670865952"
+          },
+          {
+            "Name": "Power",
+            "ID": "c25a027f-15f8-461f-b961-c61f8e35b8d2"
+          },
+          {
+            "Name": "60V",
+            "ID": "c25faf59-47b0-4890-9354-d58c586de79c"
+          },
+          {
+            "Name": "195Ap",
+            "ID": "5ed5ce7d-8200-4c35-9ae2-14192ab03a47"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "KLDX-0202-A",
+        "Description": null,
+        "Name": "KLDX-0202-A",
+        "FilePath": "B:\\Electrical\\Datasheets\\KLDX-0202-A.pdf",
+        "Tags": [
+          {
+            "Name": "Barrel-Jack",
+            "ID": "2c1f25c9-4bc5-49fa-8e6b-5432551709a1"
+          },
+          {
+            "Name": "24V",
+            "ID": "d0faea4c-dc0e-471e-9a4d-445d6e9424cb"
+          },
+          {
+            "Name": "3.5A",
+            "ID": "72ce70e2-f974-4423-af89-cc5f722ff2c1"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "KXM",
+        "Description": null,
+        "Name": "KXM",
+        "FilePath": "B:\\Electrical\\Datasheets\\KXM.pdf",
+        "Tags": [
+          {
+            "Name": "Cap",
+            "ID": "ad0f4316-3d8e-4c8e-b534-882f006aee3d"
+          },
+          {
+            "Name": "Capacitor",
+            "ID": "0b1ae6bc-64e3-4589-a33d-99d08bfcf2d6"
+          },
+          {
+            "Name": "Radial",
+            "ID": "29b54f12-94c4-462d-b6a1-96689c827204"
+          },
+          {
+            "Name": "Large",
+            "ID": "82109d93-07ca-4ff2-bc47-9fda9a5d0223"
+          },
+          {
+            "Name": "Catalog",
+            "ID": "d897e592-d5cf-46ae-b9ba-84a313034ad4"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "LM22673",
+        "Description": null,
+        "Name": "LM22673",
+        "FilePath": "B:\\Electrical\\Datasheets\\LM22673.pdf",
+        "Tags": [
+          {
+            "Name": "Step-Down",
+            "ID": "73f43ff8-db52-4581-a4a5-491ae0b47f03"
+          },
+          {
+            "Name": "Voltage",
+            "ID": "bee8f10a-fb68-4240-ae0e-a95ba553b4e2"
+          },
+          {
+            "Name": "Regulator",
+            "ID": "ee6db1f8-0ab1-477a-9ab8-2deae95034ed"
+          },
+          {
+            "Name": "4.5V",
+            "ID": "50dd0f8f-7581-4ebc-b478-e68a147fd4e0"
+          },
+          {
+            "Name": "42V",
+            "ID": "13283392-62d8-415a-b80a-6f707bdad0d4"
+          },
+          {
+            "Name": "3A",
+            "ID": "2cc6ae56-49b3-42a2-ab20-a4205fae17d1"
+          },
+          {
+            "Name": "Simple-Switcher",
+            "ID": "1a97f1a5-90aa-4e8a-aedf-cf6374370b8d"
+          },
+          {
+            "Name": "MOSFET",
+            "ID": "7dd3e7d0-3d9a-408c-a796-3f6670865952"
+          },
+          {
+            "Name": "500KHz",
+            "ID": "601da06e-c46e-4455-a1d7-f5f56ab07587"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "LM2670",
+        "Description": null,
+        "Name": "LM2670",
+        "FilePath": "B:\\Electrical\\Datasheets\\LM2670.pdf",
+        "Tags": [
+          {
+            "Name": "Step-Down",
+            "ID": "73f43ff8-db52-4581-a4a5-491ae0b47f03"
+          },
+          {
+            "Name": "Voltage",
+            "ID": "bee8f10a-fb68-4240-ae0e-a95ba553b4e2"
+          },
+          {
+            "Name": "Regulator",
+            "ID": "ee6db1f8-0ab1-477a-9ab8-2deae95034ed"
+          },
+          {
+            "Name": "8V",
+            "ID": "c5eca31c-0571-4ab4-94b1-e8d0d40bedcc"
+          },
+          {
+            "Name": "40V",
+            "ID": "db70e20f-1a34-40a9-937c-f162b47f9eb3"
+          },
+          {
+            "Name": "3A",
+            "ID": "2cc6ae56-49b3-42a2-ab20-a4205fae17d1"
+          },
+          {
+            "Name": "260KHz",
+            "ID": "809c0938-f2c0-451f-8e3c-1b2a52717d72"
+          },
+          {
+            "Name": "Simple-Switcher",
+            "ID": "1a97f1a5-90aa-4e8a-aedf-cf6374370b8d"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "LM317",
+        "Description": null,
+        "Name": "LM317",
+        "FilePath": "B:\\Electrical\\Datasheets\\LM317.pdf",
+        "Tags": [
+          {
+            "Name": "Voltage",
+            "ID": "bee8f10a-fb68-4240-ae0e-a95ba553b4e2"
+          },
+          {
+            "Name": "Current",
+            "ID": "e4959dd0-5ef2-43de-a4cb-8a633c10eaa7"
+          },
+          {
+            "Name": "Regulator",
+            "ID": "ee6db1f8-0ab1-477a-9ab8-2deae95034ed"
+          },
+          {
+            "Name": "1.25V",
+            "ID": "635bdfd8-c3bc-4de9-9e64-d46da3717b64"
+          },
+          {
+            "Name": "37V",
+            "ID": "0d748ca2-5068-41ca-a0e1-8f8493153aae"
+          },
+          {
+            "Name": "1.5A",
+            "ID": "406cb447-79e9-4cad-b420-f9e4de501e54"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "LM358",
+        "Description": null,
+        "Name": "LM358",
+        "FilePath": "B:\\Electrical\\Datasheets\\LM358.pdf",
+        "Tags": [
+          {
+            "Name": "OPAMP",
+            "ID": "e12360e3-ec54-428b-920d-47faf4fdc5f5"
+          },
+          {
+            "Name": "Dual",
+            "ID": "8db1ea07-98f5-4936-890c-97939026592c"
+          },
+          {
+            "Name": "100dB",
+            "ID": "d2ad15d8-03b3-4141-bcbd-4aa7b757328e"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "LM555-D",
+        "Description": null,
+        "Name": "LM555-D",
+        "FilePath": "B:\\Electrical\\Datasheets\\LM555-D.pdf",
+        "Tags": [
+          {
+            "Name": "Timer",
+            "ID": "8dbc4ee2-d5cb-4de8-92b5-4271cf856c6e"
+          },
+          {
+            "Name": "200mA",
+            "ID": "26e8add0-2aff-488b-87ce-8ba3c358666c"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "Logic Gate Truth Tables",
+        "Description": null,
+        "Name": "Logic Gate Truth Tables",
+        "FilePath": "B:\\Electrical\\Datasheets\\Logic Gate Truth Tables.pdf",
+        "Tags": [
+          {
+            "Name": "Logic-Gate",
+            "ID": "a869bd2b-1cf1-4914-9c7e-8d41a81612aa"
+          },
+          {
+            "Name": "Overview",
+            "ID": "25f113c5-48ba-4293-8044-0efda3748aa6"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "M65P28",
+        "Description": null,
+        "Name": "M65P28",
+        "FilePath": "B:\\Electrical\\Datasheets\\M65P28.pdf",
+        "Tags": [
+          {
+            "Name": "AA",
+            "ID": "8c268005-f724-4138-9093-71059866a51e"
+          },
+          {
+            "Name": "Battery",
+            "ID": "4563b2b0-b26c-4018-9254-7d144f9e549c"
+          },
+          {
+            "Name": "Holder",
+            "ID": "b05cb34f-dd55-4630-9254-6f0538011711"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "MC33063A",
+        "Description": null,
+        "Name": "MC33063A",
+        "FilePath": "B:\\Electrical\\Datasheets\\MC33063A.pdf",
+        "Tags": [
+          {
+            "Name": "Boost-Buck",
+            "ID": "ad9147d7-355e-42d8-9686-e9212fa479c0"
+          },
+          {
+            "Name": "Switching",
+            "ID": "597144ac-eefc-4318-a263-bcfc1a2c81ac"
+          },
+          {
+            "Name": "Regulator",
+            "ID": "ee6db1f8-0ab1-477a-9ab8-2deae95034ed"
+          },
+          {
+            "Name": "1.5A",
+            "ID": "406cb447-79e9-4cad-b420-f9e4de501e54"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "MCP2515",
+        "Description": null,
+        "Name": "MCP2515",
+        "FilePath": "B:\\Electrical\\Datasheets\\MCP2515.pdf",
+        "Tags": [
+          {
+            "Name": "CAN-Bus",
+            "ID": "851ccefb-cb72-473d-b9c0-6ad517482528"
+          },
+          {
+            "Name": "SPI",
+            "ID": "063004e9-5c89-4d23-9af6-7c9ebc465b8c"
+          },
+          {
+            "Name": "1Mb/s",
+            "ID": "46e42c46-382d-41dc-ba59-181286471a24"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "MF52D-103f-3950",
+        "Description": null,
+        "Name": "MF52D-103f-3950",
+        "FilePath": "B:\\Electrical\\Datasheets\\MF52D-103f-3950.pdf",
+        "Tags": [
+          {
+            "Name": "NTC",
+            "ID": "3f797f47-b7a8-47ef-bbf0-ceb4c3b0ed00"
+          },
+          {
+            "Name": "Thermistor",
+            "ID": "a53c38c2-862f-44b8-bedc-ebcd197259ef"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "MPLAB Snap",
+        "Description": null,
+        "Name": "MPLAB Snap",
+        "FilePath": "B:\\Electrical\\Datasheets\\MPLAB Snap.pdf",
+        "Tags": [
+          {
+            "Name": "Debugger",
+            "ID": "9c526f86-8b4d-4c06-9bde-002f2bfbdd96"
+          },
+          {
+            "Name": "Programmer",
+            "ID": "9796dc23-a910-4337-850b-6448df808b15"
+          },
+          {
+            "Name": "Guide",
+            "ID": "76eb67f3-8157-409a-994e-4528869ce669"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "NC7SZ14-D",
+        "Description": null,
+        "Name": "NC7SZ14-D",
+        "FilePath": "B:\\Electrical\\Datasheets\\NC7SZ14-D.pdf",
+        "Tags": [
+          {
+            "Name": "UHS",
+            "ID": "7b7cb97f-02de-4f28-a8eb-d6ed88d1beb7"
+          },
+          {
+            "Name": "Schmitt-Trigger",
+            "ID": "dba93278-ec7a-4a9c-8e38-e5350619bb07"
+          },
+          {
+            "Name": "Inverting",
+            "ID": "a4217805-d14c-4123-94f6-c062b5915793"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "OPB615-625-665",
+        "Description": null,
+        "Name": "OPB615-625-665",
+        "FilePath": "B:\\Electrical\\Datasheets\\OPB615-625-665.pdf",
+        "Tags": [
+          {
+            "Name": "Optical-Switch",
+            "ID": "a7ed1212-d104-4d9b-9811-3e6c652b850d"
+          },
+          {
+            "Name": "IR",
+            "ID": "8fdbb6f6-43e8-438a-91c4-d8f30c9105c2"
+          },
+          {
+            "Name": "LED",
+            "ID": "d7cf467c-bc8c-4279-9d94-7067462ea8f0"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "PC817",
+        "Description": null,
+        "Name": "PC817",
+        "FilePath": "B:\\Electrical\\Datasheets\\PC817.pdf",
+        "Tags": [
+          {
+            "Name": "Opto-Coupler",
+            "ID": "c486b407-ca23-4ef0-b751-29765f13cc8d"
+          },
+          {
+            "Name": "Coupler",
+            "ID": "02617434-7f49-48ea-8874-60cee9f71358"
+          },
+          {
+            "Name": "PTH",
+            "ID": "c360ae04-c929-4c3c-9470-b9fa90bd253f"
+          },
+          {
+            "Name": "50%",
+            "ID": "f09701b7-9e43-4e3a-9c4b-2029cf992421"
+          },
+          {
+            "Name": "80V",
+            "ID": "7d50718d-3a19-4aa8-93d6-81cfef2f9711"
+          },
+          {
+            "Name": "50mA",
+            "ID": "b5b91ee6-2163-43df-b6fb-84507c4ed03f"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "PCF8574A",
+        "Description": null,
+        "Name": "PCF8574A",
+        "FilePath": "B:\\Electrical\\Datasheets\\PCF8574A.pdf",
+        "Tags": [
+          {
+            "Name": "8b",
+            "ID": "2443e36f-75de-45dc-adca-c7ab5890a69e"
+          },
+          {
+            "Name": "IO-Expander",
+            "ID": "b030efd4-2d50-44e0-a7fb-a23975ccd98d"
+          },
+          {
+            "Name": "I2C",
+            "ID": "77c3ad7f-83e2-481b-98c3-22e89de92ce8"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "PEC11R",
+        "Description": null,
+        "Name": "PEC11R",
+        "FilePath": "B:\\Electrical\\Datasheets\\PEC11R.pdf",
+        "Tags": [
+          {
+            "Name": "Rotary",
+            "ID": "47eb3b15-4879-4f3e-b165-4930176f2e71"
+          },
+          {
+            "Name": "Encoder",
+            "ID": "ad85f4ae-c0aa-4f7a-9eaf-f1342cdd80a5"
+          },
+          {
+            "Name": "PTH",
+            "ID": "c360ae04-c929-4c3c-9470-b9fa90bd253f"
+          },
+          {
+            "Name": "Switch",
+            "ID": "7312d916-903a-4bd2-92fc-5287bbee2ef7"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "QSH4218",
+        "Description": null,
+        "Name": "QSH4218",
+        "FilePath": "B:\\Electrical\\Datasheets\\QSH4218.pdf",
+        "Tags": [
+          {
+            "Name": "Stepper",
+            "ID": "3053c7dc-9332-4116-b9d1-2b8115884e4c"
+          },
+          {
+            "Name": "Motor",
+            "ID": "9648bab0-359e-4a9e-82ec-0ac9f3ebee24"
+          },
+          {
+            "Name": "42mm",
+            "ID": "2c5214a9-537e-40ed-b253-014334ff0d15"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "RL201-RL207",
+        "Description": null,
+        "Name": "RL201-RL207",
+        "FilePath": "B:\\Electrical\\Datasheets\\RL201-RL207.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "50V",
+            "ID": "6876698b-5e71-470b-ab9a-3cdb61c22daa"
+          },
+          {
+            "Name": "100V",
+            "ID": "2af33e77-fbf8-4018-8b8b-3dbfd1e980c9"
+          },
+          {
+            "Name": "200V",
+            "ID": "147dc587-37cf-45b1-b149-912c7badaded"
+          },
+          {
+            "Name": "400V",
+            "ID": "93182509-163d-4a2a-8881-134dba158231"
+          },
+          {
+            "Name": "600V",
+            "ID": "92edf821-18d1-4381-b1a2-8a74ad7d35ea"
+          },
+          {
+            "Name": "800V",
+            "ID": "0957cbab-1cf3-45bf-a5d6-df9aecbfa830"
+          },
+          {
+            "Name": "1KV",
+            "ID": "8d9e237f-682f-49c1-94d8-f9065469bba4"
+          },
+          {
+            "Name": "2A",
+            "ID": "ba5733d0-44c7-4788-8126-8637c32c42e2"
+          },
+          {
+            "Name": "70Ap",
+            "ID": "8e1d8a59-57c8-4228-8ed6-ec6b7d27ffc7"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "S8050",
+        "Description": null,
+        "Name": "S8050",
+        "FilePath": "B:\\Electrical\\Datasheets\\S8050.pdf",
+        "Tags": [
+          {
+            "Name": "Transistor",
+            "ID": "c57e5c20-e8a9-401a-b9e0-7cfb1576e4ba"
+          },
+          {
+            "Name": "NPN",
+            "ID": "5d210b56-4d04-4c90-8ff0-4750e3f6aa6e"
+          },
+          {
+            "Name": "Epitaxial",
+            "ID": "9d56cbd1-80bb-47f1-b9c5-7a74b87c4925"
+          },
+          {
+            "Name": "1.5A",
+            "ID": "406cb447-79e9-4cad-b420-f9e4de501e54"
+          },
+          {
+            "Name": "25V",
+            "ID": "2c0e6dcb-69f9-4a30-be1c-a87915381381"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SAM-C20-C21 Family",
+        "Description": null,
+        "Name": "SAM-C20-C21 Family",
+        "FilePath": "B:\\Electrical\\Datasheets\\SAM-C20-C21 Family.pdf",
+        "Tags": [
+          {
+            "Name": "32b",
+            "ID": "89820745-204e-4ae9-b199-9850f0cef0ec"
+          },
+          {
+            "Name": "ARM",
+            "ID": "1e0790c3-75e5-497a-b225-82ea0e7d6e33"
+          },
+          {
+            "Name": "Cortex-M0+",
+            "ID": "165c6182-dc4e-473d-933d-9f9c11929c51"
+          },
+          {
+            "Name": "CAN-Bus",
+            "ID": "851ccefb-cb72-473d-b9c0-6ad517482528"
+          },
+          {
+            "Name": "CAN-FD",
+            "ID": "fea5797d-1e9c-4eb6-b06c-398d7f476316"
+          },
+          {
+            "Name": "Touch",
+            "ID": "b82b100b-f8dd-4d77-a089-286829b7bec0"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SB120-SB160",
+        "Description": null,
+        "Name": "SB120-SB160",
+        "FilePath": "B:\\Electrical\\Datasheets\\SB120-SB160.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "Schottky",
+            "ID": "f0656e30-6647-4043-bac4-4610983b5190"
+          },
+          {
+            "Name": "20V",
+            "ID": "cfe66fcc-53f4-4130-9926-7775dfd4c334"
+          },
+          {
+            "Name": "30V",
+            "ID": "a3035c18-1ae2-4136-a373-fe5eb83618b1"
+          },
+          {
+            "Name": "40V",
+            "ID": "db70e20f-1a34-40a9-937c-f162b47f9eb3"
+          },
+          {
+            "Name": "50V",
+            "ID": "6876698b-5e71-470b-ab9a-3cdb61c22daa"
+          },
+          {
+            "Name": "60V",
+            "ID": "c25faf59-47b0-4890-9354-d58c586de79c"
+          },
+          {
+            "Name": "1A",
+            "ID": "1f72b8e4-268a-4015-ab69-082dc5d982ea"
+          },
+          {
+            "Name": "40Ap",
+            "ID": "4a137ad7-b2bc-40e0-bd16-3a8e08416936"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SCAS301R",
+        "Description": null,
+        "Name": "SCAS301R",
+        "FilePath": "B:\\Electrical\\Datasheets\\SCAS301R.pdf",
+        "Tags": [
+          {
+            "Name": "D-FF",
+            "ID": "6732333c-4797-463e-8b27-dd28cc6df1df"
+          },
+          {
+            "Name": "D-Type",
+            "ID": "7a74dd17-3a4a-449e-bdc7-1612bccb8ac7"
+          },
+          {
+            "Name": "Flip-Flop",
+            "ID": "df61ae0f-6c85-4b9c-8279-56133d0fea3a"
+          },
+          {
+            "Name": "Edge-Trig",
+            "ID": "f462cfc7-2dd5-4b1c-b853-84064295fe6f"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SLF10145-KIT",
+        "Description": null,
+        "Name": "SLF10145-KIT",
+        "FilePath": "B:\\Electrical\\Datasheets\\SLF10145-KIT.pdf",
+        "Tags": [
+          {
+            "Name": "Inductor",
+            "ID": "2d616644-2cb0-46e7-955b-c291d3bb389d"
+          },
+          {
+            "Name": "Kit",
+            "ID": "635865b6-4ae4-4806-b773-d880649788b9"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SLF10145",
+        "Description": null,
+        "Name": "SLF10145",
+        "FilePath": "B:\\Electrical\\Datasheets\\SLF10145.pdf",
+        "Tags": [
+          {
+            "Name": "Inductor",
+            "ID": "2d616644-2cb0-46e7-955b-c291d3bb389d"
+          },
+          {
+            "Name": "Wire-Wound",
+            "ID": "27a0ce67-c250-439f-9a30-e8c26367ad25"
+          },
+          {
+            "Name": "Ferrite",
+            "ID": "f8983611-f233-40e4-9b8a-ad3d5d54dba7"
+          },
+          {
+            "Name": "Catalog",
+            "ID": "d897e592-d5cf-46ae-b9ba-84a313034ad4"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SMLK18WB-K28WB",
+        "Description": null,
+        "Name": "SMLK18WB-K28WB",
+        "FilePath": "B:\\Electrical\\Datasheets\\SMLK18WB-K28WB.pdf",
+        "Tags": [
+          {
+            "Name": "LED",
+            "ID": "d7cf467c-bc8c-4279-9d94-7067462ea8f0"
+          },
+          {
+            "Name": "White",
+            "ID": "efcda82f-5814-4923-95ae-481d7784604e"
+          },
+          {
+            "Name": "High-Pwer",
+            "ID": "6cae0334-7ca6-4c44-a987-5eac04b2efef"
+          },
+          {
+            "Name": "3.9Vf",
+            "ID": "b4aff7a4-579d-493d-9f4f-6b30fecb3b2e"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SN65HVD1050",
+        "Description": null,
+        "Name": "SN65HVD1050",
+        "FilePath": "B:\\Electrical\\Datasheets\\SN65HVD1050.pdf",
+        "Tags": [
+          {
+            "Name": "CAN-Bus",
+            "ID": "851ccefb-cb72-473d-b9c0-6ad517482528"
+          },
+          {
+            "Name": "Transeiver",
+            "ID": "775fcc13-84a9-449c-8ca9-33e1f4fba201"
+          },
+          {
+            "Name": "ISO-11898",
+            "ID": "5ea409b2-01ac-4dea-8e90-a076e5983440"
+          },
+          {
+            "Name": "1Mb/s",
+            "ID": "46e42c46-382d-41dc-ba59-181286471a24"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SN74HC595",
+        "Description": null,
+        "Name": "SN74HC595",
+        "FilePath": "B:\\Electrical\\Datasheets\\SN74HC595.pdf",
+        "Tags": [
+          {
+            "Name": "8b",
+            "ID": "2443e36f-75de-45dc-adca-c7ab5890a69e"
+          },
+          {
+            "Name": "Shift-Register",
+            "ID": "d1500e97-7321-4e98-b2e5-4b904a98b539"
+          },
+          {
+            "Name": "SIPO",
+            "ID": "6ab5729a-7a54-4bd5-b149-d2b3d1e5a0b2"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SN74HC86",
+        "Description": null,
+        "Name": "SN74HC86",
+        "FilePath": "B:\\Electrical\\Datasheets\\SN74HC86.pdf",
+        "Tags": [
+          {
+            "Name": "XOR-Gate",
+            "ID": "578f5841-2e56-4864-909c-c410cb93e92c"
+          },
+          {
+            "Name": "Quad",
+            "ID": "68a744e3-1613-460a-8e65-3033daa3706e"
+          },
+          {
+            "Name": "2-Input",
+            "ID": "a35ed6b4-3943-4fb1-9720-fbdad0d9f0eb"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "STP16CP05",
+        "Description": null,
+        "Name": "STP16CP05",
+        "FilePath": "B:\\Electrical\\Datasheets\\STP16CP05.pdf",
+        "Tags": [
+          {
+            "Name": "LEd-Driver",
+            "ID": "3a31aaf6-e13f-4cf0-adb3-997d5f3a7411"
+          },
+          {
+            "Name": "16b",
+            "ID": "8ac5ab71-3e60-4706-ac56-fcd13f1be20b"
+          },
+          {
+            "Name": "Shift-Register",
+            "ID": "d1500e97-7321-4e98-b2e5-4b904a98b539"
+          },
+          {
+            "Name": "SIPO",
+            "ID": "6ab5729a-7a54-4bd5-b149-d2b3d1e5a0b2"
+          },
+          {
+            "Name": "20V",
+            "ID": "cfe66fcc-53f4-4130-9926-7775dfd4c334"
+          },
+          {
+            "Name": "100mA",
+            "ID": "5764c5f0-4239-42bc-914f-8f0eab00d6ea"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "TC4538BP",
+        "Description": null,
+        "Name": "TC4538BP",
+        "FilePath": "B:\\Electrical\\Datasheets\\TC4538BP.pdf",
+        "Tags": [
+          {
+            "Name": "Mono-Stable",
+            "ID": "b996f9a6-5583-4d84-9cec-c7d44eefa4d8"
+          },
+          {
+            "Name": "Multivibrator",
+            "ID": "f240814a-7eb0-4c61-975a-c339b622d795"
+          },
+          {
+            "Name": "Dual",
+            "ID": "8db1ea07-98f5-4936-890c-97939026592c"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "TCAN1044-Q1",
+        "Description": null,
+        "Name": "TCAN1044-Q1",
+        "FilePath": "B:\\Electrical\\Datasheets\\TCAN1044-Q1.pdf",
+        "Tags": [
+          {
+            "Name": "CAN-Bus",
+            "ID": "851ccefb-cb72-473d-b9c0-6ad517482528"
+          },
+          {
+            "Name": "CAN-FD",
+            "ID": "fea5797d-1e9c-4eb6-b06c-398d7f476316"
+          },
+          {
+            "Name": "Transeiver",
+            "ID": "775fcc13-84a9-449c-8ca9-33e1f4fba201"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "TDK CTVS",
+        "Description": null,
+        "Name": "TDK CTVS",
+        "FilePath": "B:\\Electrical\\Datasheets\\TDK CTVS.pdf",
+        "Tags": [
+          {
+            "Name": "TVS",
+            "ID": "318ede40-626e-4952-8509-5db55bca7d52"
+          },
+          {
+            "Name": "Varistor",
+            "ID": "50568ee8-de28-4049-99e9-c1bb7bce851d"
+          },
+          {
+            "Name": "150V",
+            "ID": "57a6b573-6b7a-4931-9d5c-ae374809e21b"
+          },
+          {
+            "Name": "6KA",
+            "ID": "bbba768d-0ee9-4c01-9169-b5d74d94f3e7"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "TL1105LF160Q",
+        "Description": null,
+        "Name": "TL1105LF160Q",
+        "FilePath": "B:\\Electrical\\Datasheets\\TL1105LF160Q.pdf",
+        "Tags": [
+          {
+            "Name": "Momentary",
+            "ID": "ad2f6382-e2cd-4293-95f5-b00b99d62052"
+          },
+          {
+            "Name": "Switch",
+            "ID": "7312d916-903a-4bd2-92fc-5287bbee2ef7"
+          },
+          {
+            "Name": "SPST",
+            "ID": "e0a3f540-c8d1-4aa6-85b6-14bd3a29e187"
+          },
+          {
+            "Name": "Tall-Actuator",
+            "ID": "4793756f-221f-4774-be66-a4b7055f84ed"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "TLV9151",
+        "Description": null,
+        "Name": "TLV9151",
+        "FilePath": "B:\\Electrical\\Datasheets\\TLV9151.pdf",
+        "Tags": [
+          {
+            "Name": "OPAMP",
+            "ID": "e12360e3-ec54-428b-920d-47faf4fdc5f5"
+          },
+          {
+            "Name": "Rail-to-Rail",
+            "ID": "01b0e292-4746-49f4-9837-c304687fd092"
+          },
+          {
+            "Name": "Low-Offset",
+            "ID": "ef3f1a37-c021-4abd-ae00-d7ddd3818a56"
+          },
+          {
+            "Name": "4.5MHz",
+            "ID": "8cee4752-3405-45f6-a4e5-88e74195ded9"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "TLV9351",
+        "Description": null,
+        "Name": "TLV9351",
+        "FilePath": "B:\\Electrical\\Datasheets\\TLV9351.pdf",
+        "Tags": [
+          {
+            "Name": "OPAMP",
+            "ID": "e12360e3-ec54-428b-920d-47faf4fdc5f5"
+          },
+          {
+            "Name": "MUX-Friendly",
+            "ID": "e7a760fc-47e8-421b-806e-bdc22697baa8"
+          },
+          {
+            "Name": "40V",
+            "ID": "db70e20f-1a34-40a9-937c-f162b47f9eb3"
+          },
+          {
+            "Name": "3.5MHz",
+            "ID": "ecf8a9fa-a279-49c2-964a-280ed37e7164"
+          },
+          {
+            "Name": "Rail-to-Rail",
+            "ID": "01b0e292-4746-49f4-9837-c304687fd092"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "UCC5310",
+        "Description": null,
+        "Name": "UCC5310",
+        "FilePath": "B:\\Electrical\\Datasheets\\UCC5310.pdf",
+        "Tags": [
+          {
+            "Name": "Gate-Driver",
+            "ID": "580ee32b-306f-47d2-8057-bcfdc2936c0b"
+          },
+          {
+            "Name": "Single-Channel",
+            "ID": "c40e6de5-754c-47ad-aa69-a65d599d383c"
+          },
+          {
+            "Name": "MOSFET",
+            "ID": "7dd3e7d0-3d9a-408c-a796-3f6670865952"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "UF4001-UF4007",
+        "Description": null,
+        "Name": "UF4001-UF4007",
+        "FilePath": "B:\\Electrical\\Datasheets\\UF4001-UF4007.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "Ultra-Fast",
+            "ID": "987e80c5-6514-4e66-b643-fe464e8dde7d"
+          },
+          {
+            "Name": "50V",
+            "ID": "6876698b-5e71-470b-ab9a-3cdb61c22daa"
+          },
+          {
+            "Name": "100V",
+            "ID": "2af33e77-fbf8-4018-8b8b-3dbfd1e980c9"
+          },
+          {
+            "Name": "200V",
+            "ID": "147dc587-37cf-45b1-b149-912c7badaded"
+          },
+          {
+            "Name": "400V",
+            "ID": "93182509-163d-4a2a-8881-134dba158231"
+          },
+          {
+            "Name": "600V",
+            "ID": "92edf821-18d1-4381-b1a2-8a74ad7d35ea"
+          },
+          {
+            "Name": "800V",
+            "ID": "0957cbab-1cf3-45bf-a5d6-df9aecbfa830"
+          },
+          {
+            "Name": "1KV",
+            "ID": "8d9e237f-682f-49c1-94d8-f9065469bba4"
+          },
+          {
+            "Name": "1A",
+            "ID": "1f72b8e4-268a-4015-ab69-082dc5d982ea"
+          },
+          {
+            "Name": "30Ap",
+            "ID": "fe9410b1-d1a1-40fc-91b4-e5d30bad5a72"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "ULN2003A",
+        "Description": null,
+        "Name": "ULN2003A",
+        "FilePath": "B:\\Electrical\\Datasheets\\ULN2003A.pdf",
+        "Tags": [
+          {
+            "Name": "Darlington",
+            "ID": "87e4863d-5b9e-4ef3-ae80-299a52d2447a"
+          },
+          {
+            "Name": "Array",
+            "ID": "2baf9478-2018-4657-8c25-692a9f7151b9"
+          },
+          {
+            "Name": "High-Voltage",
+            "ID": "b0a994b4-430d-484f-9924-6d969347c224"
+          },
+          {
+            "Name": "High-Current",
+            "ID": "66cbac55-836b-433b-9ce8-be1b2a2d9959"
+          },
+          {
+            "Name": "50V",
+            "ID": "6876698b-5e71-470b-ab9a-3cdb61c22daa"
+          },
+          {
+            "Name": "500mA",
+            "ID": "b5ad3b28-b75b-47f5-ab71-5c4e65ca265b"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "usb1135",
+        "Description": null,
+        "Name": "usb1135",
+        "FilePath": "B:\\Electrical\\Datasheets\\usb1135.pdf",
+        "Tags": [
+          {
+            "Name": "USB",
+            "ID": "5f1bafdd-02e3-4bd8-825e-5a72291af7f7"
+          },
+          {
+            "Name": "Type-A",
+            "ID": "ed8dcfb6-4b9e-4ae5-8652-bf661ae1bf09"
+          },
+          {
+            "Name": "Female",
+            "ID": "747524d1-cbe4-4351-8c46-1a042686f064"
+          },
+          {
+            "Name": "PTH",
+            "ID": "c360ae04-c929-4c3c-9470-b9fa90bd253f"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "ABLS",
+        "Description": null,
+        "Name": "ABLS",
+        "FilePath": "B:\\Electrical\\Datasheets\\ABLS.pdf",
+        "Tags": [
+          {
+            "Name": "Crystal",
+            "ID": "8a2d677d-3bb5-45a7-8172-681b47a14cdc"
+          },
+          {
+            "Name": "Clock",
+            "ID": "ff64c425-d41b-4c7c-85c8-5584851df973"
+          },
+          {
+            "Name": "Sealed",
+            "ID": "da2d4355-2a96-4acc-b707-1fd3b005ffc5"
+          },
+          {
+            "Name": "Low-Profile",
+            "ID": "7589a5d6-e40e-40da-b504-37ddccbf157b"
+          },
+          {
+            "Name": "SMD",
+            "ID": "b759b0d5-f5b7-4817-a551-36de12fd2422"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "ADS131M08",
+        "Description": null,
+        "Name": "ADS131M08",
+        "FilePath": "B:\\Electrical\\Datasheets\\ADS131M08.pdf",
+        "Tags": [
+          {
+            "Name": "ADC",
+            "ID": "cb451911-3e10-4199-8a7b-c28abdf3beab"
+          },
+          {
+            "Name": "8-Channel",
+            "ID": "97ad9f58-5aee-4571-b123-01bbacd228f4"
+          },
+          {
+            "Name": "Simultaneous",
+            "ID": "cfd44fd3-6982-4cc6-8d66-b627f073c2ba"
+          },
+          {
+            "Name": "24b",
+            "ID": "45521d63-8f7e-4e4f-b6dc-f0620765df8a"
+          },
+          {
+            "Name": "Delta-Sigma",
+            "ID": "fde38403-8f8e-4e52-a3e7-b0efe59fefaa"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "DS30096",
+        "Description": null,
+        "Name": "DS30096",
+        "FilePath": "B:\\Electrical\\Datasheets\\DS30096.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "Fast-Switching",
+            "ID": "5c6e4345-659b-4719-93cb-898bef832ae7"
+          },
+          {
+            "Name": "SMD",
+            "ID": "b759b0d5-f5b7-4817-a551-36de12fd2422"
+          },
+          {
+            "Name": "75V",
+            "ID": "c80d05c0-c292-4518-bbae-0da9dbcdb7e3"
+          },
+          {
+            "Name": "500mA",
+            "ID": "b5ad3b28-b75b-47f5-ab71-5c4e65ca265b"
+          },
+          {
+            "Name": "4Ap",
+            "ID": "7e807c8d-ca7d-4507-96ed-d65c5af3b7ed"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "ES2A-A",
+        "Description": null,
+        "Name": "ES2A-A",
+        "FilePath": "B:\\Electrical\\Datasheets\\ES2A-A.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "Super-Fast",
+            "ID": "293b61eb-c57a-4e56-b08e-d64ffb572f96"
+          },
+          {
+            "Name": "SMD",
+            "ID": "b759b0d5-f5b7-4817-a551-36de12fd2422"
+          },
+          {
+            "Name": "50Ap",
+            "ID": "52967d7e-43d2-440d-b0a2-e42d928cf032"
+          },
+          {
+            "Name": "50V",
+            "ID": "6876698b-5e71-470b-ab9a-3cdb61c22daa"
+          },
+          {
+            "Name": "100V",
+            "ID": "2af33e77-fbf8-4018-8b8b-3dbfd1e980c9"
+          },
+          {
+            "Name": "150V",
+            "ID": "57a6b573-6b7a-4931-9d5c-ae374809e21b"
+          },
+          {
+            "Name": "200V",
+            "ID": "147dc587-37cf-45b1-b149-912c7badaded"
+          },
+          {
+            "Name": "2A",
+            "ID": "ba5733d0-44c7-4788-8126-8637c32c42e2"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "BAT54T-A-C-ST(SOT-523)",
+        "Description": null,
+        "Name": "BAT54T-A-C-ST(SOT-523)",
+        "FilePath": "B:\\Electrical\\Datasheets\\BAT54T-A-C-ST(SOT-523).PDF",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "Array",
+            "ID": "2baf9478-2018-4657-8c25-692a9f7151b9"
+          },
+          {
+            "Name": "Schottky",
+            "ID": "f0656e30-6647-4043-bac4-4610983b5190"
+          },
+          {
+            "Name": "Barrier",
+            "ID": "1a2b7126-d497-4f94-9c72-a68821a4720f"
+          },
+          {
+            "Name": "30V",
+            "ID": "a3035c18-1ae2-4136-a373-fe5eb83618b1"
+          },
+          {
+            "Name": "200mA",
+            "ID": "26e8add0-2aff-488b-87ce-8ba3c358666c"
+          },
+          {
+            "Name": "600mA",
+            "ID": "154efe28-8bbd-4f53-84b9-6ccf55a0cdfc"
+          }
+        ],
+        "FileType": ".PDF"
+      },
+      {
+        "PartName": "SM6TY",
+        "Description": null,
+        "Name": "SM6TY",
+        "FilePath": "B:\\Electrical\\Datasheets\\SM6TY.pdf",
+        "Tags": [
+          {
+            "Name": "TVS",
+            "ID": "318ede40-626e-4952-8509-5db55bca7d52"
+          },
+          {
+            "Name": "600W",
+            "ID": "939aa4e2-a508-40f7-babb-ce2220a582e7"
+          },
+          {
+            "Name": "30kV",
+            "ID": "e89c7804-52ba-4fdb-8375-cf3537ac958a"
+          },
+          {
+            "Name": "Automotive",
+            "ID": "2a5fd026-5629-49f5-9818-697ece6f76ea"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "TPD2E2U06-Q1",
+        "Description": null,
+        "Name": "TPD2E2U06-Q1",
+        "FilePath": "B:\\Electrical\\Datasheets\\TPD2E2U06-Q1.pdf",
+        "Tags": [
+          {
+            "Name": "ESD",
+            "ID": "a7252b58-6cd5-4f3b-85ad-630c68f48c68"
+          },
+          {
+            "Name": "Dual-Channel",
+            "ID": "8af21644-a208-4478-80ac-3965418006e0"
+          },
+          {
+            "Name": "High-Speed",
+            "ID": "36964f00-afde-4650-b9f6-1810ffd6b59a"
+          },
+          {
+            "Name": "Automotive",
+            "ID": "2a5fd026-5629-49f5-9818-697ece6f76ea"
+          },
+          {
+            "Name": "6.5V",
+            "ID": "f0047607-635c-42e0-b55d-dbc02120333e"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "1N4448WS",
+        "Description": null,
+        "Name": "1N4448WS",
+        "FilePath": "B:\\Electrical\\Datasheets\\1N4448WS.pdf",
+        "Tags": [
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "Small",
+            "ID": "3d086eed-f465-43a9-9cd6-d6a6f374fa8e"
+          },
+          {
+            "Name": "Signal",
+            "ID": "47a54a70-6e19-4766-a49d-90380290bd4c"
+          },
+          {
+            "Name": "75V",
+            "ID": "c80d05c0-c292-4518-bbae-0da9dbcdb7e3"
+          },
+          {
+            "Name": "300mA",
+            "ID": "ec0eece7-3f8e-4f64-accf-548b3749ea16"
+          },
+          {
+            "Name": "SMD",
+            "ID": "b759b0d5-f5b7-4817-a551-36de12fd2422"
+          }
+        ],
+        "FileType": ".pdf"
+      },
+      {
+        "PartName": "SK152-B",
+        "Description": null,
+        "Name": "SK152-B",
+        "FilePath": "B:\\Electrical\\Datasheets\\SK152-B.pdf",
+        "Tags": [
+          {
+            "Name": "Schottky",
+            "ID": "f0656e30-6647-4043-bac4-4610983b5190"
+          },
+          {
+            "Name": "Diode",
+            "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+          },
+          {
+            "Name": "15A",
+            "ID": "41d1e19f-99e1-4432-aed1-89fdfc45d02a"
+          },
+          {
+            "Name": "20V",
+            "ID": "cfe66fcc-53f4-4130-9926-7775dfd4c334"
+          },
+          {
+            "Name": "30V",
+            "ID": "a3035c18-1ae2-4136-a373-fe5eb83618b1"
+          },
+          {
+            "Name": "35V",
+            "ID": "d06d5bcd-4d0a-4eaf-acb3-a22e0326184a"
+          },
+          {
+            "Name": "40V",
+            "ID": "db70e20f-1a34-40a9-937c-f162b47f9eb3"
+          },
+          {
+            "Name": "45V",
+            "ID": "59ed230c-893b-4762-82a9-5986e12e573c"
+          },
+          {
+            "Name": "50V",
+            "ID": "6876698b-5e71-470b-ab9a-3cdb61c22daa"
+          },
+          {
+            "Name": "60V",
+            "ID": "c25faf59-47b0-4890-9354-d58c586de79c"
+          },
+          {
+            "Name": "80V",
+            "ID": "7d50718d-3a19-4aa8-93d6-81cfef2f9711"
+          },
+          {
+            "Name": "100V",
+            "ID": "2af33e77-fbf8-4018-8b8b-3dbfd1e980c9"
+          },
+          {
+            "Name": "SMD",
+            "ID": "b759b0d5-f5b7-4817-a551-36de12fd2422"
+          }
+        ],
+        "FileType": ".pdf"
+      }
+    ],
+    "RootDirectory": "B:\\Electrical\\Datasheets",
+    "SavePath": "B:\\Electrical\\Datasheets\\.metaFile.json"
+  },
+  "Tags": [
+    {
+      "Name": "Signal",
+      "ID": "47a54a70-6e19-4766-a49d-90380290bd4c"
+    },
+    {
+      "Name": "Relay",
+      "ID": "2c74a979-85ff-4fd2-8036-dec351fa0ff1"
+    },
+    {
+      "Name": "Toggle",
+      "ID": "5af86e51-6a42-4485-87d7-6605b4136f76"
+    },
+    {
+      "Name": "Switch",
+      "ID": "7312d916-903a-4bd2-92fc-5287bbee2ef7"
+    },
+    {
+      "Name": "Catalog",
+      "ID": "d897e592-d5cf-46ae-b9ba-84a313034ad4"
+    },
+    {
+      "Name": "USB",
+      "ID": "5f1bafdd-02e3-4bd8-825e-5a72291af7f7"
+    },
+    {
+      "Name": "Connector",
+      "ID": "72d7eda3-ea39-43d6-a664-16b09ea0704a"
+    },
+    {
+      "Name": "Female",
+      "ID": "747524d1-cbe4-4351-8c46-1a042686f064"
+    },
+    {
+      "Name": "Micro",
+      "ID": "cd5f8bba-f966-4dbc-b6e8-15ca5d0a17fa"
+    },
+    {
+      "Name": "Current-Sense",
+      "ID": "a30e46e3-f628-46a7-8480-9181b920d31d"
+    },
+    {
+      "Name": "Resistor",
+      "ID": "d07e0cd2-0a52-4387-9cc3-d5a00ef05854"
+    },
+    {
+      "Name": "Power",
+      "ID": "c25a027f-15f8-461f-b961-c61f8e35b8d2"
+    },
+    {
+      "Name": "Stepper",
+      "ID": "3053c7dc-9332-4116-b9d1-2b8115884e4c"
+    },
+    {
+      "Name": "Motor",
+      "ID": "9648bab0-359e-4a9e-82ec-0ac9f3ebee24"
+    },
+    {
+      "Name": "512Kb",
+      "ID": "34af6c6b-924e-44ba-ac18-3112d97682f9"
+    },
+    {
+      "Name": "SPI",
+      "ID": "063004e9-5c89-4d23-9af6-7c9ebc465b8c"
+    },
+    {
+      "Name": "SRAM",
+      "ID": "e49d66c0-d1d7-4f9d-9f26-7a2e2e5636fe"
+    },
+    {
+      "Name": "SDI",
+      "ID": "f2b7f2be-61be-4f74-98c3-a84091a4b076"
+    },
+    {
+      "Name": "32Kb",
+      "ID": "32a43784-93cc-4957-bc1f-17e74c46fca2"
+    },
+    {
+      "Name": "EEPROM",
+      "ID": "96ea595b-6acf-4659-9348-e9c4c22b00c7"
+    },
+    {
+      "Name": "Micro-Controller",
+      "ID": "2ddb9da7-4e29-4319-96a8-c506388e7fcb"
+    },
+    {
+      "Name": "16b",
+      "ID": "8ac5ab71-3e60-4706-ac56-fcd13f1be20b"
+    },
+    {
+      "Name": "DC",
+      "ID": "1b18a706-ea5a-4a0e-afb2-7ca6167dc26d"
+    },
+    {
+      "Name": "Linear",
+      "ID": "bca799a3-adb3-46f5-82c6-16ec87f9a1cd"
+    },
+    {
+      "Name": "Hall-Effect",
+      "ID": "441e8f00-7af6-4335-bb50-d82823fc7804"
+    },
+    {
+      "Name": "2A",
+      "ID": "ba5733d0-44c7-4788-8126-8637c32c42e2"
+    },
+    {
+      "Name": "8b",
+      "ID": "2443e36f-75de-45dc-adca-c7ab5890a69e"
+    },
+    {
+      "Name": "64Kb",
+      "ID": "c7bc78bf-6aa8-4a71-91ed-8bd513044dd4"
+    },
+    {
+      "Name": "128Kb",
+      "ID": "696ac40c-b97d-4082-8361-af5b0777b890"
+    },
+    {
+      "Name": "CAN-Bus",
+      "ID": "851ccefb-cb72-473d-b9c0-6ad517482528"
+    },
+    {
+      "Name": "Momentary",
+      "ID": "ad2f6382-e2cd-4293-95f5-b00b99d62052"
+    },
+    {
+      "Name": "Driver",
+      "ID": "71c22d5c-0150-4b2f-9f62-3d21c1bbdf2e"
+    },
+    {
+      "Name": "Guide",
+      "ID": "76eb67f3-8157-409a-994e-4528869ce669"
+    },
+    {
+      "Name": "Overview",
+      "ID": "25f113c5-48ba-4293-8044-0efda3748aa6"
+    },
+    {
+      "Name": "MOSFET",
+      "ID": "7dd3e7d0-3d9a-408c-a796-3f6670865952"
+    },
+    {
+      "Name": "PNP",
+      "ID": "3103e0d0-9af7-45a2-a81d-23f5b5553f0e"
+    },
+    {
+      "Name": "3A",
+      "ID": "2cc6ae56-49b3-42a2-ab20-a4205fae17d1"
+    },
+    {
+      "Name": "12V",
+      "ID": "5da929f0-7002-4422-bc48-3c12fbd08136"
+    },
+    {
+      "Name": "16bit",
+      "ID": "35217170-4863-41bd-bbf7-5292456aa0bf"
+    },
+    {
+      "Name": "20bit",
+      "ID": "a0df75a0-7db3-46f8-9d81-6f39af63d93e"
+    },
+    {
+      "Name": "ADC",
+      "ID": "cb451911-3e10-4199-8a7b-c28abdf3beab"
+    },
+    {
+      "Name": "1-Ch",
+      "ID": "b1218e2e-533d-47e5-a09a-e2bb74b1ea2c"
+    },
+    {
+      "Name": "Delta-Sigma",
+      "ID": "fde38403-8f8e-4e52-a3e7-b0efe59fefaa"
+    },
+    {
+      "Name": "100V",
+      "ID": "2af33e77-fbf8-4018-8b8b-3dbfd1e980c9"
+    },
+    {
+      "Name": "NPN",
+      "ID": "5d210b56-4d04-4c90-8ff0-4750e3f6aa6e"
+    },
+    {
+      "Name": "Transistor",
+      "ID": "c57e5c20-e8a9-401a-b9e0-7cfb1576e4ba"
+    },
+    {
+      "Name": "30V",
+      "ID": "a3035c18-1ae2-4136-a373-fe5eb83618b1"
+    },
+    {
+      "Name": "Digital",
+      "ID": "2f58e875-2ba8-4a4c-9cae-ba34b2596fe6"
+    },
+    {
+      "Name": "Thermometer",
+      "ID": "6df21082-1731-4c18-b7aa-d10a2914e37b"
+    },
+    {
+      "Name": "1-Wire",
+      "ID": "ec708a4d-bbf7-4c5e-9d51-eed6dd405b87"
+    },
+    {
+      "Name": "12b",
+      "ID": "8e700429-289b-4336-8955-4e4bd4e01541"
+    },
+    {
+      "Name": "TVS",
+      "ID": "318ede40-626e-4952-8509-5db55bca7d52"
+    },
+    {
+      "Name": "4V",
+      "ID": "82232aff-a237-41ab-a1d8-576508acc145"
+    },
+    {
+      "Name": "BMS",
+      "ID": "fb1fadd1-811c-43a2-a678-1b3b62f85c96"
+    },
+    {
+      "Name": "Diode",
+      "ID": "11c2cbcd-aefd-4cc0-a469-c3ef5d813909"
+    },
+    {
+      "Name": "PTH",
+      "ID": "c360ae04-c929-4c3c-9470-b9fa90bd253f"
+    },
+    {
+      "Name": "1KV",
+      "ID": "8d9e237f-682f-49c1-94d8-f9065469bba4"
+    },
+    {
+      "Name": "1A",
+      "ID": "1f72b8e4-268a-4015-ab69-082dc5d982ea"
+    },
+    {
+      "Name": "30Ap",
+      "ID": "fe9410b1-d1a1-40fc-91b4-e5d30bad5a72"
+    },
+    {
+      "Name": "50V",
+      "ID": "6876698b-5e71-470b-ab9a-3cdb61c22daa"
+    },
+    {
+      "Name": "200V",
+      "ID": "147dc587-37cf-45b1-b149-912c7badaded"
+    },
+    {
+      "Name": "400V",
+      "ID": "93182509-163d-4a2a-8881-134dba158231"
+    },
+    {
+      "Name": "600V",
+      "ID": "92edf821-18d1-4381-b1a2-8a74ad7d35ea"
+    },
+    {
+      "Name": "800V",
+      "ID": "0957cbab-1cf3-45bf-a5d6-df9aecbfa830"
+    },
+    {
+      "Name": "60Ap",
+      "ID": "574d49bb-ec02-4ee6-8432-546e7dcd8254"
+    },
+    {
+      "Name": "LED",
+      "ID": "d7cf467c-bc8c-4279-9d94-7067462ea8f0"
+    },
+    {
+      "Name": "Bar-Graph",
+      "ID": "d880740f-7c82-4d28-9e5b-2f6b819da4d8"
+    },
+    {
+      "Name": "Red",
+      "ID": "e6de33a1-504b-484d-9cca-46e65d89bfbb"
+    },
+    {
+      "Name": "Green",
+      "ID": "0c14ce0a-155d-4ccd-ac53-2a1242a02520"
+    },
+    {
+      "Name": "Blue",
+      "ID": "a5c1f487-0dfe-4764-bcd2-f7f67063f1dc"
+    },
+    {
+      "Name": "I2C",
+      "ID": "77c3ad7f-83e2-481b-98c3-22e89de92ce8"
+    },
+    {
+      "Name": "Momenatry",
+      "ID": "c2d4ebc0-bcb8-4e97-9e7d-b0c103b4df80"
+    },
+    {
+      "Name": "60V",
+      "ID": "c25faf59-47b0-4890-9354-d58c586de79c"
+    },
+    {
+      "Name": "120V",
+      "ID": "28690f3f-e82c-4d06-b4d3-791b8598e66d"
+    },
+    {
+      "Name": "240V",
+      "ID": "3560afc4-c376-4d96-a402-79c5e7064adf"
+    },
+    {
+      "Name": "480V",
+      "ID": "7889bc0e-a9df-4993-b27a-712fdc07fecc"
+    },
+    {
+      "Name": "720V",
+      "ID": "528eaf17-2b1e-4b5d-9e51-9f86954bb5c6"
+    },
+    {
+      "Name": "1.2KV",
+      "ID": "21b6e50a-7197-46a2-a08d-085a7be6af88"
+    },
+    {
+      "Name": "Fast-Switching",
+      "ID": "5c6e4345-659b-4719-93cb-898bef832ae7"
+    },
+    {
+      "Name": "8ns",
+      "ID": "9c362908-188d-43b1-a399-2c17ff55fc94"
+    },
+    {
+      "Name": "200Ap",
+      "ID": "b7b49761-314b-4851-b171-dfbc83e1d4b4"
+    },
+    {
+      "Name": "Schottky",
+      "ID": "f0656e30-6647-4043-bac4-4610983b5190"
+    },
+    {
+      "Name": "20V",
+      "ID": "cfe66fcc-53f4-4130-9926-7775dfd4c334"
+    },
+    {
+      "Name": "40V",
+      "ID": "db70e20f-1a34-40a9-937c-f162b47f9eb3"
+    },
+    {
+      "Name": "25Ap",
+      "ID": "ec3f3d58-dccc-4495-8b0f-e603f075e2fb"
+    },
+    {
+      "Name": "80Ap",
+      "ID": "3d08858e-465a-4bdb-b8f4-6e5326512901"
+    },
+    {
+      "Name": "195Ap",
+      "ID": "5ed5ce7d-8200-4c35-9ae2-14192ab03a47"
+    },
+    {
+      "Name": "Barrel-Jack",
+      "ID": "2c1f25c9-4bc5-49fa-8e6b-5432551709a1"
+    },
+    {
+      "Name": "24V",
+      "ID": "d0faea4c-dc0e-471e-9a4d-445d6e9424cb"
+    },
+    {
+      "Name": "3.5A",
+      "ID": "72ce70e2-f974-4423-af89-cc5f722ff2c1"
+    },
+    {
+      "Name": "Cap",
+      "ID": "ad0f4316-3d8e-4c8e-b534-882f006aee3d"
+    },
+    {
+      "Name": "Capacitor",
+      "ID": "0b1ae6bc-64e3-4589-a33d-99d08bfcf2d6"
+    },
+    {
+      "Name": "Radial",
+      "ID": "29b54f12-94c4-462d-b6a1-96689c827204"
+    },
+    {
+      "Name": "Large",
+      "ID": "82109d93-07ca-4ff2-bc47-9fda9a5d0223"
+    },
+    {
+      "Name": "Step-Down",
+      "ID": "73f43ff8-db52-4581-a4a5-491ae0b47f03"
+    },
+    {
+      "Name": "Voltage",
+      "ID": "bee8f10a-fb68-4240-ae0e-a95ba553b4e2"
+    },
+    {
+      "Name": "Regulator",
+      "ID": "ee6db1f8-0ab1-477a-9ab8-2deae95034ed"
+    },
+    {
+      "Name": "4.5V",
+      "ID": "50dd0f8f-7581-4ebc-b478-e68a147fd4e0"
+    },
+    {
+      "Name": "42V",
+      "ID": "13283392-62d8-415a-b80a-6f707bdad0d4"
+    },
+    {
+      "Name": "Simple-Switcher",
+      "ID": "1a97f1a5-90aa-4e8a-aedf-cf6374370b8d"
+    },
+    {
+      "Name": "500KHz",
+      "ID": "601da06e-c46e-4455-a1d7-f5f56ab07587"
+    },
+    {
+      "Name": "8V",
+      "ID": "c5eca31c-0571-4ab4-94b1-e8d0d40bedcc"
+    },
+    {
+      "Name": "260KHz",
+      "ID": "809c0938-f2c0-451f-8e3c-1b2a52717d72"
+    },
+    {
+      "Name": "Current",
+      "ID": "e4959dd0-5ef2-43de-a4cb-8a633c10eaa7"
+    },
+    {
+      "Name": "1.25V",
+      "ID": "635bdfd8-c3bc-4de9-9e64-d46da3717b64"
+    },
+    {
+      "Name": "37V",
+      "ID": "0d748ca2-5068-41ca-a0e1-8f8493153aae"
+    },
+    {
+      "Name": "1.5A",
+      "ID": "406cb447-79e9-4cad-b420-f9e4de501e54"
+    },
+    {
+      "Name": "OPAMP",
+      "ID": "e12360e3-ec54-428b-920d-47faf4fdc5f5"
+    },
+    {
+      "Name": "Dual",
+      "ID": "8db1ea07-98f5-4936-890c-97939026592c"
+    },
+    {
+      "Name": "100dB",
+      "ID": "d2ad15d8-03b3-4141-bcbd-4aa7b757328e"
+    },
+    {
+      "Name": "Timer",
+      "ID": "8dbc4ee2-d5cb-4de8-92b5-4271cf856c6e"
+    },
+    {
+      "Name": "200mA",
+      "ID": "26e8add0-2aff-488b-87ce-8ba3c358666c"
+    },
+    {
+      "Name": "Logic-Gate",
+      "ID": "a869bd2b-1cf1-4914-9c7e-8d41a81612aa"
+    },
+    {
+      "Name": "AA",
+      "ID": "8c268005-f724-4138-9093-71059866a51e"
+    },
+    {
+      "Name": "Battery",
+      "ID": "4563b2b0-b26c-4018-9254-7d144f9e549c"
+    },
+    {
+      "Name": "Holder",
+      "ID": "b05cb34f-dd55-4630-9254-6f0538011711"
+    },
+    {
+      "Name": "Boost-Buck",
+      "ID": "ad9147d7-355e-42d8-9686-e9212fa479c0"
+    },
+    {
+      "Name": "Switching",
+      "ID": "597144ac-eefc-4318-a263-bcfc1a2c81ac"
+    },
+    {
+      "Name": "1Mb/s",
+      "ID": "46e42c46-382d-41dc-ba59-181286471a24"
+    },
+    {
+      "Name": "NTC",
+      "ID": "3f797f47-b7a8-47ef-bbf0-ceb4c3b0ed00"
+    },
+    {
+      "Name": "Thermistor",
+      "ID": "a53c38c2-862f-44b8-bedc-ebcd197259ef"
+    },
+    {
+      "Name": "Debugger",
+      "ID": "9c526f86-8b4d-4c06-9bde-002f2bfbdd96"
+    },
+    {
+      "Name": "Programmer",
+      "ID": "9796dc23-a910-4337-850b-6448df808b15"
+    },
+    {
+      "Name": "UHS",
+      "ID": "7b7cb97f-02de-4f28-a8eb-d6ed88d1beb7"
+    },
+    {
+      "Name": "Schmitt-Trigger",
+      "ID": "dba93278-ec7a-4a9c-8e38-e5350619bb07"
+    },
+    {
+      "Name": "Inverting",
+      "ID": "a4217805-d14c-4123-94f6-c062b5915793"
+    },
+    {
+      "Name": "Optical-Switch",
+      "ID": "a7ed1212-d104-4d9b-9811-3e6c652b850d"
+    },
+    {
+      "Name": "IR",
+      "ID": "8fdbb6f6-43e8-438a-91c4-d8f30c9105c2"
+    },
+    {
+      "Name": "Opto-Coupler",
+      "ID": "c486b407-ca23-4ef0-b751-29765f13cc8d"
+    },
+    {
+      "Name": "Coupler",
+      "ID": "02617434-7f49-48ea-8874-60cee9f71358"
+    },
+    {
+      "Name": "50%",
+      "ID": "f09701b7-9e43-4e3a-9c4b-2029cf992421"
+    },
+    {
+      "Name": "80V",
+      "ID": "7d50718d-3a19-4aa8-93d6-81cfef2f9711"
+    },
+    {
+      "Name": "50mA",
+      "ID": "b5b91ee6-2163-43df-b6fb-84507c4ed03f"
+    },
+    {
+      "Name": "IO-Expander",
+      "ID": "b030efd4-2d50-44e0-a7fb-a23975ccd98d"
+    },
+    {
+      "Name": "Rotary",
+      "ID": "47eb3b15-4879-4f3e-b165-4930176f2e71"
+    },
+    {
+      "Name": "Encoder",
+      "ID": "ad85f4ae-c0aa-4f7a-9eaf-f1342cdd80a5"
+    },
+    {
+      "Name": "42mm",
+      "ID": "2c5214a9-537e-40ed-b253-014334ff0d15"
+    },
+    {
+      "Name": "70Ap",
+      "ID": "8e1d8a59-57c8-4228-8ed6-ec6b7d27ffc7"
+    },
+    {
+      "Name": "Epitaxial",
+      "ID": "9d56cbd1-80bb-47f1-b9c5-7a74b87c4925"
+    },
+    {
+      "Name": "25V",
+      "ID": "2c0e6dcb-69f9-4a30-be1c-a87915381381"
+    },
+    {
+      "Name": "32b",
+      "ID": "89820745-204e-4ae9-b199-9850f0cef0ec"
+    },
+    {
+      "Name": "ARM",
+      "ID": "1e0790c3-75e5-497a-b225-82ea0e7d6e33"
+    },
+    {
+      "Name": "Cortex-M0+",
+      "ID": "165c6182-dc4e-473d-933d-9f9c11929c51"
+    },
+    {
+      "Name": "CAN-FD",
+      "ID": "fea5797d-1e9c-4eb6-b06c-398d7f476316"
+    },
+    {
+      "Name": "Touch",
+      "ID": "b82b100b-f8dd-4d77-a089-286829b7bec0"
+    },
+    {
+      "Name": "40Ap",
+      "ID": "4a137ad7-b2bc-40e0-bd16-3a8e08416936"
+    },
+    {
+      "Name": "D-FF",
+      "ID": "6732333c-4797-463e-8b27-dd28cc6df1df"
+    },
+    {
+      "Name": "D-Type",
+      "ID": "7a74dd17-3a4a-449e-bdc7-1612bccb8ac7"
+    },
+    {
+      "Name": "Flip-Flop",
+      "ID": "df61ae0f-6c85-4b9c-8279-56133d0fea3a"
+    },
+    {
+      "Name": "Edge-Trig",
+      "ID": "f462cfc7-2dd5-4b1c-b853-84064295fe6f"
+    },
+    {
+      "Name": "Inductor",
+      "ID": "2d616644-2cb0-46e7-955b-c291d3bb389d"
+    },
+    {
+      "Name": "Kit",
+      "ID": "635865b6-4ae4-4806-b773-d880649788b9"
+    },
+    {
+      "Name": "Wire-Wound",
+      "ID": "27a0ce67-c250-439f-9a30-e8c26367ad25"
+    },
+    {
+      "Name": "Ferrite",
+      "ID": "f8983611-f233-40e4-9b8a-ad3d5d54dba7"
+    },
+    {
+      "Name": "White",
+      "ID": "efcda82f-5814-4923-95ae-481d7784604e"
+    },
+    {
+      "Name": "High-Pwer",
+      "ID": "6cae0334-7ca6-4c44-a987-5eac04b2efef"
+    },
+    {
+      "Name": "3.9Vf",
+      "ID": "b4aff7a4-579d-493d-9f4f-6b30fecb3b2e"
+    },
+    {
+      "Name": "Transeiver",
+      "ID": "775fcc13-84a9-449c-8ca9-33e1f4fba201"
+    },
+    {
+      "Name": "ISO-11898",
+      "ID": "5ea409b2-01ac-4dea-8e90-a076e5983440"
+    },
+    {
+      "Name": "Shift-Register",
+      "ID": "d1500e97-7321-4e98-b2e5-4b904a98b539"
+    },
+    {
+      "Name": "SIPO",
+      "ID": "6ab5729a-7a54-4bd5-b149-d2b3d1e5a0b2"
+    },
+    {
+      "Name": "XOR-Gate",
+      "ID": "578f5841-2e56-4864-909c-c410cb93e92c"
+    },
+    {
+      "Name": "Quad",
+      "ID": "68a744e3-1613-460a-8e65-3033daa3706e"
+    },
+    {
+      "Name": "2-Input",
+      "ID": "a35ed6b4-3943-4fb1-9720-fbdad0d9f0eb"
+    },
+    {
+      "Name": "LEd-Driver",
+      "ID": "3a31aaf6-e13f-4cf0-adb3-997d5f3a7411"
+    },
+    {
+      "Name": "100mA",
+      "ID": "5764c5f0-4239-42bc-914f-8f0eab00d6ea"
+    },
+    {
+      "Name": "Mono-Stable",
+      "ID": "b996f9a6-5583-4d84-9cec-c7d44eefa4d8"
+    },
+    {
+      "Name": "Multivibrator",
+      "ID": "f240814a-7eb0-4c61-975a-c339b622d795"
+    },
+    {
+      "Name": "Varistor",
+      "ID": "50568ee8-de28-4049-99e9-c1bb7bce851d"
+    },
+    {
+      "Name": "150V",
+      "ID": "57a6b573-6b7a-4931-9d5c-ae374809e21b"
+    },
+    {
+      "Name": "6KA",
+      "ID": "bbba768d-0ee9-4c01-9169-b5d74d94f3e7"
+    },
+    {
+      "Name": "SPST",
+      "ID": "e0a3f540-c8d1-4aa6-85b6-14bd3a29e187"
+    },
+    {
+      "Name": "Tall-Actuator",
+      "ID": "4793756f-221f-4774-be66-a4b7055f84ed"
+    },
+    {
+      "Name": "Rail-to-Rail",
+      "ID": "01b0e292-4746-49f4-9837-c304687fd092"
+    },
+    {
+      "Name": "Low-Offset",
+      "ID": "ef3f1a37-c021-4abd-ae00-d7ddd3818a56"
+    },
+    {
+      "Name": "4.5MHz",
+      "ID": "8cee4752-3405-45f6-a4e5-88e74195ded9"
+    },
+    {
+      "Name": "MUX-Friendly",
+      "ID": "e7a760fc-47e8-421b-806e-bdc22697baa8"
+    },
+    {
+      "Name": "3.5MHz",
+      "ID": "ecf8a9fa-a279-49c2-964a-280ed37e7164"
+    },
+    {
+      "Name": "Gate-Driver",
+      "ID": "580ee32b-306f-47d2-8057-bcfdc2936c0b"
+    },
+    {
+      "Name": "Single-Channel",
+      "ID": "c40e6de5-754c-47ad-aa69-a65d599d383c"
+    },
+    {
+      "Name": "Ultra-Fast",
+      "ID": "987e80c5-6514-4e66-b643-fe464e8dde7d"
+    },
+    {
+      "Name": "Darlington",
+      "ID": "87e4863d-5b9e-4ef3-ae80-299a52d2447a"
+    },
+    {
+      "Name": "Array",
+      "ID": "2baf9478-2018-4657-8c25-692a9f7151b9"
+    },
+    {
+      "Name": "High-Voltage",
+      "ID": "b0a994b4-430d-484f-9924-6d969347c224"
+    },
+    {
+      "Name": "High-Current",
+      "ID": "66cbac55-836b-433b-9ce8-be1b2a2d9959"
+    },
+    {
+      "Name": "500mA",
+      "ID": "b5ad3b28-b75b-47f5-ab71-5c4e65ca265b"
+    },
+    {
+      "Name": "Type-A",
+      "ID": "ed8dcfb6-4b9e-4ae5-8652-bf661ae1bf09"
+    },
+    {
+      "Name": "Crystal",
+      "ID": "8a2d677d-3bb5-45a7-8172-681b47a14cdc"
+    },
+    {
+      "Name": "Clock",
+      "ID": "ff64c425-d41b-4c7c-85c8-5584851df973"
+    },
+    {
+      "Name": "Sealed",
+      "ID": "da2d4355-2a96-4acc-b707-1fd3b005ffc5"
+    },
+    {
+      "Name": "Low-Profile",
+      "ID": "7589a5d6-e40e-40da-b504-37ddccbf157b"
+    },
+    {
+      "Name": "SMD",
+      "ID": "b759b0d5-f5b7-4817-a551-36de12fd2422"
+    },
+    {
+      "Name": "8-Channel",
+      "ID": "97ad9f58-5aee-4571-b123-01bbacd228f4"
+    },
+    {
+      "Name": "Simultaneous",
+      "ID": "cfd44fd3-6982-4cc6-8d66-b627f073c2ba"
+    },
+    {
+      "Name": "24b",
+      "ID": "45521d63-8f7e-4e4f-b6dc-f0620765df8a"
+    },
+    {
+      "Name": "75V",
+      "ID": "c80d05c0-c292-4518-bbae-0da9dbcdb7e3"
+    },
+    {
+      "Name": "4Ap",
+      "ID": "7e807c8d-ca7d-4507-96ed-d65c5af3b7ed"
+    },
+    {
+      "Name": "Super-Fast",
+      "ID": "293b61eb-c57a-4e56-b08e-d64ffb572f96"
+    },
+    {
+      "Name": "50Ap",
+      "ID": "52967d7e-43d2-440d-b0a2-e42d928cf032"
+    },
+    {
+      "Name": "Barrier",
+      "ID": "1a2b7126-d497-4f94-9c72-a68821a4720f"
+    },
+    {
+      "Name": "600mA",
+      "ID": "154efe28-8bbd-4f53-84b9-6ccf55a0cdfc"
+    },
+    {
+      "Name": "600W",
+      "ID": "939aa4e2-a508-40f7-babb-ce2220a582e7"
+    },
+    {
+      "Name": "30kV",
+      "ID": "e89c7804-52ba-4fdb-8375-cf3537ac958a"
+    },
+    {
+      "Name": "Automotive",
+      "ID": "2a5fd026-5629-49f5-9818-697ece6f76ea"
+    },
+    {
+      "Name": "ESD",
+      "ID": "a7252b58-6cd5-4f3b-85ad-630c68f48c68"
+    },
+    {
+      "Name": "Dual-Channel",
+      "ID": "8af21644-a208-4478-80ac-3965418006e0"
+    },
+    {
+      "Name": "High-Speed",
+      "ID": "36964f00-afde-4650-b9f6-1810ffd6b59a"
+    },
+    {
+      "Name": "6.5V",
+      "ID": "f0047607-635c-42e0-b55d-dbc02120333e"
+    },
+    {
+      "Name": "Small",
+      "ID": "3d086eed-f465-43a9-9cd6-d6a6f374fa8e"
+    },
+    {
+      "Name": "300mA",
+      "ID": "ec0eece7-3f8e-4f64-accf-548b3749ea16"
+    },
+    {
+      "Name": "Rectifier",
+      "ID": "00bada06-99b0-49a8-b0c5-01653bc64a44"
+    },
+    {
+      "Name": "15A",
+      "ID": "41d1e19f-99e1-4432-aed1-89fdfc45d02a"
+    },
+    {
+      "Name": "35V",
+      "ID": "d06d5bcd-4d0a-4eaf-acb3-a22e0326184a"
+    },
+    {
+      "Name": "45V",
+      "ID": "59ed230c-893b-4762-82a9-5986e12e573c"
+    }
+  ]
+}

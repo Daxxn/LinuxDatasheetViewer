@@ -1,3 +1,4 @@
+from json import load
 from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import (
    QCheckBox,
@@ -6,6 +7,7 @@ from PySide6.QtWidgets import (
    QHBoxLayout,
    QLabel,
    QLineEdit,
+   QMenuBar,
    QRadioButton,
    QTabWidget,
    QWidget,
@@ -19,10 +21,14 @@ from LocalLogging.logger import LoggerBase
 from models.datasheet import Datasheet, DatasheetCollection
 from models.settings import Settings
 from models.tags import TagManager
+from models.fileManager import saveMetadata, openMetadata
+from views.editorView import EditorView
 from views.settingsView import SettingsView
 from views.tagView import TagView
 from enum import Enum
+import os.path as Path
 
+#region Search Enum
 class SearchMode(Enum):
    Name = 0
    Tag = 1
@@ -38,23 +44,50 @@ class SearchMode(Enum):
          return SearchMode.Desc
       else:
          return None
+#endregion
 
+#region Main View
 class MainView(QWidget):
    #region Init
-   def __init__(self, logger: LoggerBase, settings: Settings, parent=None) -> None:
+   def __init__(
+      self,
+      logger: LoggerBase,
+      settings: Settings,
+      parent: QWidget = None
+   ) -> None:
       super(MainView, self).__init__(parent)
 
       #region Parameters
       self.logger = logger
       self.settings = settings
       self.tagManager = TagManager(settings)
-      self.tagsView = TagView(logger, settings, self.tagManager, self.updateTagsList)
       self.settingsDialog = SettingsView(logger, self.settings)
       self.datasheets = DatasheetCollection(self.settings)
+      #region Editor View
+      self.editorView = EditorView(
+         settings,
+         logger,
+         self.datasheets,
+         self.tagManager,
+         self.editorUpdateCallback,
+         parent
+      )
+      self.tagsView = TagView(
+         logger,
+         settings,
+         self.tagManager,
+         self.datasheets,
+         self.editorView.setTags
+      )
+      self.editorView.updateCallback = self.tagsView.updateTags
+      #endregion
+
+      #region Search Props
       self.searchResults = DatasheetCollection(self.settings)
       self.seletedDatasheet: Datasheet = None
       self.searchMode = SearchMode.Name
       self.searchCase = False
+      #endregion
       #endregion
 
       #region View
@@ -62,8 +95,10 @@ class MainView(QWidget):
       #region Search
       self.searchGrid = QGridLayout()
 
-      self.searchText = QLineEdit('search')
+      self.searchText = QLineEdit('')
+      self.searchText.setPlaceholderText('Search')
       self.searchText.textChanged.connect(self.searchDatasheets)
+      self.searchText.returnPressed.connect(self.searchDatasheets)
       self.searchGrid.addWidget(self.searchText, 0, 0, Qt.AlignLeft)
 
       self.searchTypeCombo = QComboBox()
@@ -87,15 +122,20 @@ class MainView(QWidget):
       self.searchList.itemClicked.connect(self.selectDatasheet)
       #endregion
 
-      #region Main View Controls
+      #region Main View Controls 
       self.openSettingsButton = QPushButton(QIcon(), 'Settings')
       self.openSettingsButton.clicked.connect(self.openSettingsDialog)
+
       self.updateButton = QPushButton(QIcon(), 'Update')
-      self.updateButton.clicked.connect(self.updateDatasheets)
+      self.updateButton.clicked.connect(self.openMetadata)
+
+      self.saveBtn = QPushButton(QIcon(), 'Save')
+      self.saveBtn.clicked.connect(self.saveMetadata)
 
       self.menuButtonBox = QHBoxLayout()
       self.menuButtonBox.addWidget(self.openSettingsButton)
       self.menuButtonBox.addWidget(self.updateButton)
+      self.menuButtonBox.addWidget(self.saveBtn)
 
       #region Datasheet List
       self.datasheetListView = QListWidget()
@@ -150,7 +190,9 @@ class MainView(QWidget):
       self.openDatasheetButton.clicked.connect(self.openDatasheet)
       self.selectedItemGrid.addWidget(self.openDatasheetButton, 7, 0, 1, 2, Qt.AlignRight)
       #endregion
+
       #endregion
+
       #endregion
 
       #region Grid
@@ -166,12 +208,14 @@ class MainView(QWidget):
       self.mainView.setLayout(self.grid)
       #endregion
 
+
+      #region Tabs
       self.tabContainer = QTabWidget()
       self.tabContainer.addTab(self.mainView, QIcon(), 'Datasheets')
       self.tabContainer.addTab(self.tagsView, QIcon(), 'Tags')
-      # self.tabContainer.addTab(self.docViewer, QIcon(), 'Doc Viewer')
+      self.tabContainer.addTab(self.editorView, QIcon(), 'Editor')
+      #endregion
 
-      # self.setLayout(self.grid)
       self.tempBox = QBoxLayout(QBoxLayout.TopToBottom)
       self.tempBox.addWidget(self.tabContainer)
       self.setLayout(self.tempBox)
@@ -180,13 +224,35 @@ class MainView(QWidget):
 
       self.setMinimumSize(1000, 1000)
 
-      self.updateDatasheets()
+      self.openMetadata()
    #endregion
 
    #region Methods
+   def openMetadata(self):
+      self.datasheets, self.tagManager = openMetadata(
+         self.logger,
+         self.settings,
+         self.datasheets,
+         self.tagManager
+      )
+      self.tagManager = self.tagManager
+      self.tagsView.tagManager = self.tagManager
+      self.editorView.tagManager = self.tagManager
+      self.buildMainList()
+      self.tagsView.updateTags()
+
+   def saveMetadata(self):
+      saveMetadata(
+         self.logger,
+         self.settings,
+         self.datasheets,
+         self.tagManager
+      )
+
    def buildMainList(self):
       for d in self.datasheets:
          self.datasheetListView.addItem(QListWidgetItem(QIcon(), d.name))
+      self.editorView.buildMainList()
 
    def buildSearchList(self):
       self.searchList.clear()
@@ -197,7 +263,6 @@ class MainView(QWidget):
    def selectDatasheet(self, args: QListWidgetItem):
       if args != None:
          self.selectedDatasheet = self.datasheets.find(args.text())
-         # self.selectedNameText.setText(self.selectedDatasheet.name)
          self.logger.log(f'Selected Datasheet Changed: {self.selectedDatasheet.name}')
          self.setSelectedText()
 
@@ -212,13 +277,11 @@ class MainView(QWidget):
       tags = [tag.name for tag in self.selectedDatasheet.tags]
       self.selectedTagsList.clear()
       self.selectedTagsList.addItems(tags)
-      # for tag in self.selectedDatasheet.tags:
 
    @Slot()
    def openSettingsDialog(self):
       self.logger.log('Opening Settings')
       self.settingsDialog.show(self.settings)
-      # print(self.settings.datasheetsDir)
       self.logger.log(f'Settings Changed: {self.settings}')
       try:
          self.updateDatasheets()
@@ -228,6 +291,7 @@ class MainView(QWidget):
    @Slot()
    def updateDatasheets(self):
       self.datasheets.load(self.settings.datasheetsDir)
+      self.openMetadata()
       self.buildMainList()
 
    @Slot()
@@ -244,6 +308,7 @@ class MainView(QWidget):
 
    @Slot()
    def updateTagsList(self):
+      '''I think this is old...'''
       tags = self.tagManager.getTags()
       self.searchList.clear()
       for tag in tags:
@@ -283,6 +348,7 @@ class MainView(QWidget):
    def searchTypeChanged(self, index: int):
       if index != -1:
          print(type(index))
+         temp = self.searchTypeCombo.currentData()
          self.searchMode = SearchMode.fromInt(index)
          self.searchDatasheets(self.searchText.text())
 
@@ -295,4 +361,10 @@ class MainView(QWidget):
    def openCheckChanged(self, state: bool):
       self.selectedOpenCheck.setChecked(self.selectedDatasheet.isOpen)
    #endregion
+
+   def editorUpdateCallback(self, datasheets: DatasheetCollection):
+      self.datasheets = datasheets
+      self.buildMainList()
+      self.searchDatasheets(self.searchText.text())
    #endregion
+#endregion

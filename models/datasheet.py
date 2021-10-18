@@ -1,6 +1,6 @@
 from threading import Thread
 from models.settings import Settings
-from models.tags import Tag
+from models.tags import Tag, TagManager
 from uuid import uuid4 as uid
 from json import dumps
 import os.path as Path
@@ -15,25 +15,39 @@ class CloseException(Exception):
 #region Datasheet
 class Datasheet:
    #region Init
-   def __init__(self, path: str, name: str = None) -> None:
+   def __init__(self, path: str, partName: str = None) -> None:
       self.id = uid()
       self.path = path
+      self.partName = partName
       self.isOpen = False
       self.thread: Thread = None
       self.viewer: str = ''
       self.desc: str = ''
       self.tags: list[Tag] = []
-      self.partName: str = ''
       self.fileType: str = '.pdf'
       if Path.isfile(path):
-         self.name = name if name != None else Path.basename(path)
+         self.name = Path.basename(path)
       else:
          self.name = None
    #endregion
 
    #region Methods
+   def addTag(self, tag: Tag):
+      if not self.tags.__contains__(tag):
+         self.tags.append(tag)
+
+   def remTag(self, tag: Tag):
+      if self.tags.__contains__(tag):
+         self.tags.remove(tag)
+
    def __str__(self):
-      return dumps(self, indent=3)
+      temp = {}
+      temp['path'] = self.path
+      temp['desc'] = self.desc
+      temp['partName'] = self.partName
+      temp['fileType'] = self.fileType
+      temp['tags'] = TagManager.serialize(self.tags)
+      return dumps(temp, indent=3)
 
    def open(self):
       '''Opens the file viewer'''
@@ -56,6 +70,21 @@ class Datasheet:
          print('Not implemented.')
          # self.thread.
          # os.kill(self.thread.native_id, 1)
+
+   def serialize(self):
+      temp = {}
+      temp['path'] = self.path
+      temp['desc'] = self.desc
+      temp['partName'] = self.partName
+      temp['fileType'] = self.fileType
+      temp['tags'] = TagManager.serialize(self.tags)
+      return temp
+
+   @staticmethod
+   def deserialize(tagManager: TagManager, data: dict):
+      newDatasheet = Datasheet(data['path'], data['partName'])
+      newDatasheet.tags = tagManager.deserialize(data['tags'])
+      return newDatasheet
    #endregion
 #endregion
 
@@ -80,33 +109,37 @@ class DatasheetCollection:
       if self.datasheets.__contains__(sheet):
          self.datasheets.remove(sheet)
 
+   def deleteTag(self, tag: Tag):
+      for ds in self.datasheets:
+         ds.remTag(tag)
+
    def clear(self):
       self.datasheets = []
 
-   def load(self, rootPath: str):
-      try:
-         if Path.isdir(rootPath):
-            self.rootDir = rootPath
-            self.datasheets = []
-            files = os.listdir(self.rootDir)
-            for file in files:
-               fileName, ext = Path.splitext(file)
-               if ext.lower() == '.pdf':
-                  self.datasheets.append(Datasheet(Path.join(rootPath, file), fileName))
-      except Exception as e:
-         print(str(e))
+   # def load(self, rootPath: str):
+   #    try:
+   #       if Path.isdir(rootPath):
+   #          self.rootDir = rootPath
+   #          self.datasheets = []
+   #          files = os.listdir(self.rootDir)
+   #          for file in files:
+   #             fileName, ext = Path.splitext(file)
+   #             if ext.lower() == '.pdf':
+   #                self.datasheets.append(Datasheet(Path.join(rootPath, file), fileName))
+   #    except Exception as e:
+   #       print(str(e))
    
-   def load2(self):
-      try:
-         if Path.isdir(self.settings.datasheetsDir):
-            self.datasheets = []
-            files = os.listdir(self.rootDir)
-            for file in files:
-               fileName, ext = Path.splitext(file)
-               if ext.lower() == '.pdf':
-                  self.datasheets.append(Datasheet(Path.join(self.settings.datasheetsDir, file), fileName))
-      except Exception as e:
-         print(str(e))
+   # def load2(self):
+   #    try:
+   #       if Path.isdir(self.settings.datasheetsDir):
+   #          self.datasheets = []
+   #          files = os.listdir(self.rootDir)
+   #          for file in files:
+   #             fileName, ext = Path.splitext(file)
+   #             if ext.lower() == '.pdf':
+   #                self.datasheets.append(Datasheet(Path.join(self.settings.datasheetsDir, file), fileName))
+   #    except Exception as e:
+   #       print(str(e))
 
    def find(self, value: str):
       if len(self.datasheets) > 0:
@@ -115,6 +148,30 @@ class DatasheetCollection:
                if ds.name == value:
                   return ds
       return None
+
+   def serialize(self, tagManager: TagManager):
+      output = {}
+      output['data'] = []
+      for ds in self.datasheets:
+         output['data'].append(ds.serialize())
+
+      output['tags'] = tagManager.serializeAll()
+
+      try:
+         return dumps(output, indent=3)
+      except Exception as e:
+         print(str(e))
+
+   def deserialize(self, data: dict):
+      tagManager = TagManager(self.settings, TagManager.deserializeAll(data['tags']))
+   
+      newDatasheets: list[Datasheet] = []
+
+      for ds in data['data']:
+         newDatasheets.append(Datasheet.deserialize(tagManager, ds))
+
+      self.datasheets = newDatasheets
+      return tagManager
 
    def __iter__(self):
       return self

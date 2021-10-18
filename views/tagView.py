@@ -1,7 +1,8 @@
 from types import MethodType
-from PySide6.QtCore import QMimeData, Slot
+from PySide6.QtCore import QMimeData, QModelIndex, Slot
 from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QGridLayout, QHBoxLayout, QLineEdit, QListWidget, QListWidgetItem, QPushButton, QTableWidget, QTextEdit, QWidget, QLabel
+from models.datasheet import DatasheetCollection
 from models.settings import Settings
 from LocalLogging.logger import LoggerBase
 from models.tags import Tag, TagManager
@@ -13,15 +14,16 @@ class TagView(QWidget):
       logger: LoggerBase,
       settings: Settings,
       tagManager: TagManager,
+      datasheets: DatasheetCollection,
       updateTagsCallback: MethodType,
       parent=None
    ) -> None:
       super(TagView, self).__init__(parent)
       #region Parameters
       self.tagManager: TagManager = tagManager
+      self.datasheets = datasheets
       self.settings = settings
       self.logger = logger
-      self.tempName = 'New Name'
       self.selectedTag: Tag = None
       self.updateTagsCallback = updateTagsCallback
       #endregion
@@ -36,15 +38,15 @@ class TagView(QWidget):
       self.controlsLayout = QHBoxLayout()
       self.addTagBtn = QPushButton(QIcon(), 'Add')
       self.addTagBtn.clicked.connect(self.addTag)
-      # self.addTagBtn.clicked.connect(self.updateTagsCallback)
       self.controlsLayout.addWidget(self.addTagBtn)
 
-      self.addText = QLineEdit(self.tempName)
+      self.addText = QLineEdit('')
+      self.addText.setPlaceholderText('New Tag')
+      self.addText.returnPressed.connect(self.addTag)
       self.controlsLayout.addWidget(self.addText)
 
       self.removeTagBtn = QPushButton(QIcon(), 'Remove')
       self.removeTagBtn.clicked.connect(self.removeTag)
-      # self.removeTagBtn.clicked.connect(self.updateTagsCallback)
       self.controlsLayout.addWidget(self.removeTagBtn)
       #endregion
 
@@ -73,6 +75,7 @@ class TagView(QWidget):
    @Slot()
    def removeTag(self):
       if self.selectedTag != None:
+         self.datasheets.deleteTag(self.selectedTag)
          self.tagManager.remove(self.selectedTag)
          self.updateTags()
 
