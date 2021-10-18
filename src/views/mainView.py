@@ -251,13 +251,13 @@ class MainView(QWidget):
 
    def buildMainList(self):
       for d in self.datasheets:
-         self.datasheetListView.addItem(QListWidgetItem(QIcon(), d.name))
+         self.datasheetListView.addItem(QListWidgetItem(QIcon('./src/Resources/Icons/FileIcon.png'), d.name))
       self.editorView.buildMainList()
 
    def buildSearchList(self):
       self.searchList.clear()
       for d in self.searchResults:
-         self.searchList.addItem(QListWidgetItem(QIcon(), d.name))
+         self.searchList.addItem(QListWidgetItem(QIcon('./src/Resources/Icons/FileIcon.png'), d.name))
 
    @Slot(QListWidgetItem)
    def selectDatasheet(self, args: QListWidgetItem):
@@ -282,6 +282,7 @@ class MainView(QWidget):
    def openSettingsDialog(self):
       self.logger.log('Opening Settings')
       self.settingsDialog.show(self.settings)
+      self.settings = self.settingsDialog.getSettings()
       self.logger.log(f'Settings Changed: {self.settings}')
       try:
          self.updateDatasheets()
@@ -290,7 +291,6 @@ class MainView(QWidget):
 
    @Slot()
    def updateDatasheets(self):
-      self.datasheets.load(self.settings.datasheetsDir)
       self.openMetadata()
       self.buildMainList()
 
@@ -306,15 +306,6 @@ class MainView(QWidget):
    def updateOpen(self):
       self.selectedOpenCheck.setChecked(self.selectedDatasheet.isOpen)
 
-   @Slot()
-   def updateTagsList(self):
-      '''I think this is old...'''
-      tags = self.tagManager.getTags()
-      self.searchList.clear()
-      for tag in tags:
-         newItem = QListWidgetItem(QIcon(), tag.name)
-         self.searchList.addItem(newItem)
-
    #region Search Methods
    @Slot(str)
    def searchDatasheets(self, text: str):
@@ -324,10 +315,11 @@ class MainView(QWidget):
          tempText = text.lower()
       if text != '':
          if self.searchMode == SearchMode.Tag:
-            tag = self.tagManager.find(text)
-            for ds in self.datasheets:
-               if ds.tags.index(tag) != -1:
-                  self.searchResults.add(ds)
+            tag = self.tagManager.find(text, self.searchCase)
+            if tag != None:
+               for ds in self.datasheets:
+                  if ds.tags.__contains__(tag):
+                     self.searchResults.add(ds)
          elif self.searchMode == SearchMode.Name:
             for ds in self.datasheets:
                tempName = ds.name
@@ -348,8 +340,7 @@ class MainView(QWidget):
    def searchTypeChanged(self, index: int):
       if index != -1:
          print(type(index))
-         temp = self.searchTypeCombo.currentData()
-         self.searchMode = SearchMode.fromInt(index)
+         self.searchMode = self.searchTypeCombo.currentData()
          self.searchDatasheets(self.searchText.text())
 
    @Slot(bool)

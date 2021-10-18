@@ -42,11 +42,16 @@ class TagManager:
          return True
       return False
 
-   def find(self, name: str):
+   def find(self, name: str, caseSens: bool = False):
       if len(self.tags) > 0 and name != '':
-         for tag in self.tags:
-            if tag.name == name:
-               return tag
+         if caseSens:
+            for tag in self.tags:
+               if tag.name == name:
+                  return tag
+         else:
+            for tag in self.tags:
+               if tag.name.lower() == name.lower():
+                  return tag
       return None
 
    def filter(self, text: str):

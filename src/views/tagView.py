@@ -63,7 +63,7 @@ class TagView(QWidget):
       tags = self.tagManager.getTags()
       self.tagList.clear()
       for tag in tags:
-         newItem = QListWidgetItem(QIcon(), tag.name)
+         newItem = QListWidgetItem(QIcon('./src/Resources/Icons/TagIcon.png'), tag.name)
          self.tagList.addItem(newItem)
       self.updateTagsCallback()
 

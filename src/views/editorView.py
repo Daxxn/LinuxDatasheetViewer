@@ -147,7 +147,7 @@ class EditorView(QWidget):
    
    def buildMainList(self):
       for d in self.datasheets:
-         self.datasheetListView.addItem(QListWidgetItem(QIcon(), d.name))
+         self.datasheetListView.addItem(QListWidgetItem(QIcon('./src/Resources/Icons/FileIcon.png'), d.name))
 
    @Slot()
    def openDatasheet(self):
@@ -181,7 +181,7 @@ class EditorView(QWidget):
    def setSelectedTagsList(self):
       self.selectedTagsList.clear()
       for tag in self.selectedDatasheet.tags:
-         self.selectedTagsList.addItem(QListWidgetItem(QIcon(), tag.name))
+         self.selectedTagsList.addItem(QListWidgetItem(QIcon('./src/Resources/Icons/TagIcon.png'), tag.name))
 
    #region Text Updates
    @Slot(str)
@@ -242,11 +242,11 @@ class EditorView(QWidget):
             if len(self.tagManager.tags) > 0:
                self.newTagCB.clear()
                for tag in self.tagManager.getTags():
-                  self.newTagCB.addItem(QIcon(), tag.name, tag)
+                  self.newTagCB.addItem(QIcon('./src/Resources/Icons/TagIcon.png'), tag.name, tag)
       else:
          self.newTagCB.clear()
          for tag in self.tagManager.getTags():
-            self.newTagCB.addItem(QIcon(), tag.name, tag)
+            self.newTagCB.addItem(QIcon('./src/Resources/Icons/TagIcon.png'), tag.name, tag)
    #endregion
 
    @Slot()

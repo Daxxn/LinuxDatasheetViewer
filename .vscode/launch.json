@@ -8,14 +8,14 @@
          "name": "Launch",
          "type": "python",
          "request": "launch",
-         "program": "main.py",
+         "program": "./src/main.py",
          "console": "integratedTerminal"
       },
       {
          "name": "Launch - Debug",
          "type": "python",
          "request": "launch",
-         "program": "main.py",
+         "program": "./src/main.py",
          "console": "integratedTerminal",
          "args": ["verbose", "console"]
       }
