@@ -126,8 +126,8 @@ class MainView(QWidget):
       self.openSettingsButton = QPushButton(QIcon(), 'Settings')
       self.openSettingsButton.clicked.connect(self.openSettingsDialog)
 
-      self.updateButton = QPushButton(QIcon(), 'Update')
-      self.updateButton.clicked.connect(self.openMetadata)
+      self.updateButton = QPushButton(QIcon(), 'Read Datsheets')
+      self.updateButton.clicked.connect(self.readNewDatasheets)
 
       self.saveBtn = QPushButton(QIcon(), 'Save')
       self.saveBtn.clicked.connect(self.saveMetadata)
@@ -248,8 +248,13 @@ class MainView(QWidget):
          self.datasheets,
          self.tagManager
       )
+   
+   def readNewDatasheets(self):
+      self.datasheets.loadNew()
+      self.buildMainList()
 
    def buildMainList(self):
+      self.datasheetListView.clear()
       for d in self.datasheets:
          self.datasheetListView.addItem(QListWidgetItem(QIcon('./src/Resources/Icons/FileIcon.png'), d.name))
       self.editorView.buildMainList()

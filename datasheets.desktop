@@ -6,11 +6,12 @@ Comment=Search and viewer tool for electrical datasheets or PDF files
 Keywords=pdf;electrical;utility
 Type=Application
 Categories=Electrical;QT
-Exec=python /home/Daxxn/Code/Python/Projects/Datasheets/main.py
+Exec=python /home/Daxxn/Code/Python/Projects/Datasheets/src/main.py
 Terminal=false
 StartupNotify=true
 Icon=/home/Daxxn/Code/Python/Projects/Datasheets/Resources/Icons/DatasheetDesktopIcon.png
 
 [Desktop Action new-window]
-Name=Dont open a new window.
-Exec=echo Dont open a new window.
+Name=New Window
+Icon=/home/Daxxn/Code/Python/Projects/Datasheets/Resources/Icons/DatasheetDesktopIcon.png
+Exec=python /home/Daxxn/Code/Python/Projects/Datasheets/src/main.py

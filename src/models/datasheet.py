@@ -48,7 +48,7 @@ class Datasheet:
       temp['fileType'] = self.fileType
       temp['tags'] = TagManager.serialize(self.tags)
       return dumps(temp, indent=3)
-
+         
    def open(self):
       '''Opens the file viewer'''
       os.system(f'{self.viewer} \"{self.path}\"')
@@ -130,17 +130,24 @@ class DatasheetCollection:
    #    except Exception as e:
    #       print(str(e))
    
-   # def load2(self):
-   #    try:
-   #       if Path.isdir(self.settings.datasheetsDir):
-   #          self.datasheets = []
-   #          files = os.listdir(self.rootDir)
-   #          for file in files:
-   #             fileName, ext = Path.splitext(file)
-   #             if ext.lower() == '.pdf':
-   #                self.datasheets.append(Datasheet(Path.join(self.settings.datasheetsDir, file), fileName))
-   #    except Exception as e:
-   #       print(str(e))
+   def loadNew(self):
+      if Path.isdir(self.settings.datasheetsDir):
+         datasheets: list[Datasheet] = []
+         files = os.listdir(self.settings.datasheetsDir)
+         for file in files:
+            fileName, ext = Path.splitext(file)
+            if ext.lower() == '.pdf':
+               datasheets.append(Datasheet(Path.join(self.settings.datasheetsDir, file), fileName))
+
+         for ds in datasheets:
+            alreadyExists = False
+            for d in self.datasheets:
+               if ds.name == d.name:
+                  alreadyExists = True
+                  break
+            if not alreadyExists:
+               self.datasheets.append(ds)
+
 
    def find(self, value: str):
       if len(self.datasheets) > 0:

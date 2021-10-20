@@ -146,6 +146,7 @@ class EditorView(QWidget):
       self.buildMainList()
    
    def buildMainList(self):
+      self.datasheetListView.clear()
       for d in self.datasheets:
          self.datasheetListView.addItem(QListWidgetItem(QIcon('./src/Resources/Icons/FileIcon.png'), d.name))
 
